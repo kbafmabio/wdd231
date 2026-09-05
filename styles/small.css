@@ -1,0 +1,32 @@
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+}
+
+header span {
+    font-size: 1.2rem;
+    color: #8a2be7;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    color: #8a2be7;
+    cursor: pointer;
+}
+
+/* show the hamburger button*/
+.hamburger::before {
+    content: "\2630";
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
