@@ -13,13 +13,13 @@ header img {
 
 header span {
     font-size: 1.2rem;
-    color: #8F5454;
+    color: purple;
 }
 
 .hamburger {
     background: none;
     border: none;
-    color: #8a3be7;
+    color: purple;
     cursor: pointer;
 }
 
