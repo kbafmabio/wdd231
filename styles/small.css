@@ -79,6 +79,7 @@ body {
     font-family: 'roboto', sans-serif;
     margin: 1rem;
 
+
 }
 
 p {
@@ -94,4 +95,15 @@ footer {
     align-items: center;
     text-align: center;
 
+}
+
+h2 {
+    color: #ddd;
+    background-color: purple;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1/3;
 }
