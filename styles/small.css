@@ -2,6 +2,7 @@
 header {
     display: grid;
     grid-template-columns: 24px auto 44px;
+    padding: 2rem;
 }
 
 header img {
@@ -13,13 +14,13 @@ header img {
 
 header span {
     font-size: 1.2rem;
-    color: purple;
+    color: rgb(3, 3, 36);
 }
 
 .hamburger {
     background: none;
     border: none;
-    color: purple;
+    color: rgb(3, 3, 36);
     cursor: pointer;
 }
 
@@ -33,6 +34,10 @@ header span {
 }
 
 /* navigation bar */
+.navigation {
+    background-color: purple;
+}
+
 .navigation {
     display: none;
 }
@@ -62,9 +67,31 @@ header span {
 }
 
 .navigation:hover {
-    background-color: #F1E498;
+    background-color: #eee;
 }
 
 h1 {
     margin-left: 10px;
+}
+
+/* body*/
+body {
+    font-family: 'roboto', sans-serif;
+    margin: 1rem;
+
+}
+
+p {
+    margin: 0.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 0.75rem;
+    background-color: #eee;
+}
+
+/* body*/
+footer {
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+
 }
