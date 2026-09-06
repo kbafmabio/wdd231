@@ -91,9 +91,18 @@ p {
 
 /* body*/
 footer {
-    padding: 1rem;
-    align-items: center;
+    background-color: #eee;
+    padding: 1rem 10px;
     text-align: center;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    display: block;
+    align-items: center;
 
 }
 
