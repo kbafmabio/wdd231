@@ -8,6 +8,10 @@
         margin: 0 auto;
     }
 
+    .hamburger {
+        display: none;
+    }
+
     header {
         grid-template-columns: 24 px auto;
     }
