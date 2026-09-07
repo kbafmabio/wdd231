@@ -107,14 +107,18 @@ main {
 }
 
 section {
-    display: block;
-    unicode-bidi: isolate;
+    display: grid;
 }
 
 img {
     width: 50%;
     height: auto;
     align-content: center;
+}
+
+div {
+    text-align: center;
+    
 }
 
 

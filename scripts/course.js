@@ -78,21 +78,17 @@ const courses = [
     }
 ]
 
-const coursescontainer = document.querySelector('courses');
+const coursescontainer = document.querySelector('#courses');
 
 courses.forEach(course => {
-    ` const courseElement = document.createElement('div');
+    const courseElement = document.createElement('div');
     courseElement.classList.add('course');
-    courseElement.innerHTML = <h2> ${course.subject} ${course.number} - ${course.title} </h2>
+    courseElement.innerHTML = `<h2> ${course.subject} ${course.number} - ${course.title} </h2>
     <p> <strong> Credits:</strong> ${course.credits} </p>
     <p> <strong> Certificate:</strong> ${course.certificate} </p>
     <p> <strong> Description:</strong> ${course.description} </p>
     <p> <strong> Technoologie:</strong> ${course.technology.join(', ')} </p>
-    <p> <strong> Completed:</strong> ${course.completed ? '✅ Yes' : '❌ No'} </p>;  
-    
+    <p> <strong> Completed:</strong> ${course.completed ? '✅ Yes' : '❌ No'} </p> `;
 
-
-
-
-
+    coursescontainer.appendChild(courseElement);
 });
