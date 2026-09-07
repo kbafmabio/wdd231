@@ -89,22 +89,6 @@ p {
     background-color: #eee;
 }
 
-/* body*/
-footer {
-    background-color: #eee;
-    padding: 1rem 10px;
-    text-align: center;
-}
-
-.social {
-    display: flex;
-}
-
-.social a {
-    display: block;
-    align-items: center;
-
-}
 
 h2 {
     color: #ddd;
@@ -115,4 +99,40 @@ h2 {
 main {
     display: grid;
     grid-template-columns: 1/3;
+}
+
+
+
+/* footer*/
+footer {
+    background-color: #eee;
+    padding: 1rem 10px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: #eee dashed 1px;
+    border-radius: 20px;
+
+}
+
+.social img {
+    width: 20px;
+    height: 20px;
+}
+
+.social a:hover{
+    background-color: aliceblue;
 }
