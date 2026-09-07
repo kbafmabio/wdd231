@@ -118,9 +118,17 @@ img {
 
 div {
     text-align: center;
-    
+
 }
 
+.student-photo img {
+    width: 185px;
+    height: 208px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    align-content: center;
+}
 
 /* footer*/
 footer {
