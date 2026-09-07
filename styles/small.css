@@ -10,17 +10,19 @@ header img {
     width: 100%;
     height: auto;
     padding-bottom: 5%;
+    
 }
 
 header span {
     font-size: 1.2rem;
-    color: rgb(3, 3, 36);
+    color: rgb(134, 2, 106);
+
 }
 
 .hamburger {
     background: none;
     border: none;
-    color: rgb(3, 3, 36);
+    color: rgb(134, 2, 106);
     cursor: pointer;
 }
 
@@ -133,6 +135,6 @@ footer {
     height: 20px;
 }
 
-.social a:hover{
+.social a:hover {
     background-color: aliceblue;
 }
