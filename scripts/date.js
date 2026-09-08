@@ -5,4 +5,6 @@ const today = new Date();
 currentyear.innerHTML = today.getFullYear();
 
 const lastmodified = document.querySelector('#lastmodified');
-ldate.innerHTML = today.getfulldate();
+alert(document.lastModified);
+
+lastmodified.textContent = new Date(document.lastModified);
