@@ -107,7 +107,15 @@ main {
 }
 
 section {
-    display: grid;
+    display: block;
+
+}
+
+section img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 img {
