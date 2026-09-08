@@ -42,12 +42,8 @@ header span {
     background-color: purple;
 }
 
-.navigation {
-    display: none;
-}
-
 .navigation.show {
-    display: block;
+    display: flex;
 }
 
 .navigation ul {
