@@ -1,0 +1,23 @@
+{
+    "family_name": "Mabio",
+    "move_in_date": "2021-01-12",
+    "number_of_record": "4",
+    "visited_by_bishopric": true,
+    "family_members": [
+        {
+            "name": "Mabio Kolob",
+            "gender": "Female",
+            "birthday": "2019-01-02"
+        },
+        {
+            "name": "Mabio Georgetta",
+            "gender": "Female",
+            "birthday": "2019-01-02"
+        },
+        {
+            "name": "Mabio Jade",
+            "gender": "Female",
+            "birthday": "2019-01-02"
+        }
+    ]
+}
