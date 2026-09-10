@@ -1,0 +1,17 @@
+header {
+    text-align: center;
+    color: rgb(2, 2, 100);
+    border-bottom: solid 2px #eee;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+body {
+    text-align: center;
+    justify-content: center;
+}
