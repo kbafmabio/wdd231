@@ -15,7 +15,7 @@ header img {
 
 header span {
     font-size: 1.2rem;
-    color: rgb(134, 2, 106);
+    color: #98060bff;
     text-align: center;
 
 }
@@ -23,7 +23,7 @@ header span {
 .hamburger {
     background: none;
     border: none;
-    color: rgb(134, 2, 106);
+    color: #98060bff;
     cursor: pointer;
 }
 
@@ -41,7 +41,7 @@ header span {
 /* navigation bar */
 .navigation {
     display: none;
-    background-color: purple;
+    background-color: #98060bff;
 }
 
 .navigation.show {
@@ -58,18 +58,18 @@ header span {
 .navigation a {
     display: block;
     padding: .8rem 10px;
-    color: #28114d;
+    color: #968e85ff;
     text-decoration: none;
     border-bottom: solid 1px #ddd;
 
 }
 
 .navigation li.current {
-    background-color: #eee;
+    background-color: #bfb7a1ff;
 }
 
 .navigation:hover {
-    background-color: #eee;
+    background-color: #c1d7aeff;
 }
 
 h1 {
