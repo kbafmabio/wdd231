@@ -1,9 +1,9 @@
 [
     {
-        "company_name": "",
-        "company_addess": "",
-        "company_phone": "",
-        "company_url": "",
+        "company_name": "city bank",
+        "company_addess": "Immeuble Botreau Roussel , 28, Avenue Delafosse",
+        "company_phone": "+225 2776884910",
+        "company_url": "https://www.citigroup.com/global/about-us/global-presence/ivory-coast",
         "image_file": "",
         "membership_level": {
             "1": "member",
@@ -65,7 +65,7 @@
         "other": ""
     },
     {
-        "company_name": "",
+        "company_name": "c",
         "company_addess": "",
         "company_phone": "",
         "company_url": "",

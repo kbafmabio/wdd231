@@ -15,7 +15,7 @@ header img {
 
 header span {
     font-size: 1.2rem;
-    color: rgb(134, 2, 106);
+    color: #472f3bff;
     text-align: center;
 
 }
@@ -23,7 +23,7 @@ header span {
 .hamburger {
     background: none;
     border: none;
-    color: rgb(134, 2, 106);
+    color: #a50d0dff;
     cursor: pointer;
 }
 
@@ -41,7 +41,7 @@ header span {
 /* navigation bar */
 .navigation {
     display: none;
-    background-color: purple;
+    background-color: #a50d0dff;
 }
 
 .navigation.show {
@@ -58,18 +58,18 @@ header span {
 .navigation a {
     display: block;
     padding: .8rem 10px;
-    color: #28114d;
+    color: #472f3bff;
     text-decoration: none;
-    border-bottom: solid 1px #ddd;
+    border-bottom: solid 1px #e4c8d3ff;
 
 }
 
 .navigation li.current {
-    background-color: #eee;
+    background-color: #e4c8d3ff;
 }
 
 .navigation:hover {
-    background-color: #eee;
+    background-color: #696363ff;
 }
 
 h1 {
@@ -95,7 +95,7 @@ p {
 
 h2 {
     color: #ddd;
-    background-color: purple;
+    background-color: #a50d0dff;
     text-align: center;
 }
 
@@ -138,9 +138,8 @@ div {
 
 /* footer*/
 footer {
-    background-color: #eee;
+    background-color: #a50d0dff;
     padding: 1rem 10px;
-    text-align: center;
 }
 
 .social {
