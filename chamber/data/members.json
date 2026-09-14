@@ -10,13 +10,13 @@
             "2": "silver",
             "3": "gold"
         },
-        "other": ""
+        "other": "none"
     },
     {
-        "company_name": "",
-        "company_addess": "",
-        "company_phone": "",
-        "company_url": "",
+        "company_name": "CIE",
+        "company_addess": "Abidjan, Plateau, 1 avenue Legendre",
+        "company_phone": " +225 27 20 21 08 08",
+        "company_url": "https://www.cie.ci/",
         "image_file": "",
         "membership_level": {
             "1": "member",
@@ -26,10 +26,10 @@
         "other": ""
     },
     {
-        "company_name": "",
-        "company_addess": "",
-        "company_phone": "",
-        "company_url": "",
+        "company_name": "Orange",
+        "company_addess": "Abidjan, Cocody Riviéra M'Badon",
+        "company_phone": " +225 27 20 00 00 00",
+        "company_url": "https://www.orange.ci/",
         "image_file": "",
         "membership_level": {
             "1": "member",
@@ -39,9 +39,9 @@
         "other": ""
     },
     {
-        "company_name": "",
-        "company_addess": "",
-        "company_phone": "",
+        "company_name": "SIR",
+        "company_addess": "Abidjan, Vridi, Rue des Pétroliers, 15 BP 1758",
+        "company_phone": " +225 27 21 21 47 00",
         "company_url": "",
         "image_file": "",
         "membership_level": {
