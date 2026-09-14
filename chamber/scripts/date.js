@@ -15,4 +15,4 @@ const options = {
     year: "numeric"
 };
 
-lastmodified.innerHTML = new Date().toLocaleDateString("en-US", Option);
+lastmodified.innerHTML = `<span>last Modification:</span> ${new Date(document.lastModified).toLocaleDateString("en-US", options)}`;
