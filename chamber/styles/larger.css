@@ -23,10 +23,10 @@
         border: none;
     }
 
-    div#cards {
+    /*.cards {
         display: flex;
         flex-wrap: wrap;
-    }
+    }*/
 
     section {
         background-size: cover;

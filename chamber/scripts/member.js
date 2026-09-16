@@ -22,6 +22,7 @@ const displayMembers = (members) => {
 
         // Build the h2 content out to show the member's company name
         company_name.textContent = member.company_name;
+        company_phone.textContent = member.company_phone;
 
         image_file.setAttribute('src', member.image_file);
         image_file.setAttribute('alt', `Logo of ${member.company_name}`);
@@ -31,6 +32,7 @@ const displayMembers = (members) => {
 
         card.appendChild(company_name);
         card.appendChild(image_file);
+        card.appendChild(company_phone);
 
         cards.appendChild(card);
     });
