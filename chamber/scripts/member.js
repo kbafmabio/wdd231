@@ -1,4 +1,3 @@
-
 const gridButton = document.querySelector('#grid');
 const listButton = document.querySelector('#list');
 const display = document.querySelector('#cards');
@@ -8,11 +7,6 @@ gridButton.addEventListener('click', () => {
     display.classList.remove('list');
 });
 
-listButton.addEventListener('click', () => {
-    display.classList.add('list');
-    display.classList.remove('grid');
-});
-
 listButton.addEventListener('click', showList);
 
 function showList() {
@@ -20,14 +14,13 @@ function showList() {
     display.classList.remove('grid');
 }
 
-
-const cards = document.querySelector('#cards');
-
 async function loadData() {
     const response = await fetch('members.json');
     const data = await response.json();
 
     displayMembers(data.members);
+
+
 }
 
 const displayMembers = (members) => {
@@ -64,8 +57,10 @@ const displayMembers = (members) => {
         card.appendChild(image_file);
 
         // Add card to the cards container
-        cards.appendChild(card);
+        display.appendChild(card);
     });
+
+
 };
 
 // Load the JSON data
