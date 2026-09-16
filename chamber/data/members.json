@@ -1,93 +1,95 @@
-[
-    {
-        "company_name": "city bank",
-        "company_addess": "Immeuble Botreau Roussel , 28, Avenue Delafosse",
-        "company_phone": "+225 2776884910",
-        "company_url": "https://www.citigroup.com/global/about-us/global-presence/ivory-coast",
-        "image_file": "images/city.webp",
-        "membership_level": {
-            "1": "member",
-            "2": "silver",
-            "3": "gold"
+{
+    "members": [
+        {
+            "company_name": "city bank",
+            "company_addess": "Immeuble Botreau Roussel , 28, Avenue Delafosse",
+            "company_phone": "+225 2776884910",
+            "company_url": "https://www.citigroup.com/global/about-us/global-presence/ivory-coast",
+            "image_file": "images/city.webp",
+            "membership_level": {
+                "1": "member",
+                "2": "silver",
+                "3": "gold"
+            },
+            "other": "none"
         },
-        "other": "none"
-    },
-    {
-        "company_name": "CIE",
-        "company_addess": "Abidjan, Plateau, 1 avenue Legendre",
-        "company_phone": " +225 27 20 21 08 08",
-        "company_url": "https://www.cie.ci/",
-        "image_file": "images/Logo_CIE.jpg",
-        "membership_level": {
-            "1": "member",
-            "2": "silver",
-            "3": "gold"
+        {
+            "company_name": "CIE",
+            "company_addess": "Abidjan, Plateau, 1 avenue Legendre",
+            "company_phone": " +225 27 20 21 08 08",
+            "company_url": "https://www.cie.ci/",
+            "image_file": "images/Logo_CIE.jpg",
+            "membership_level": {
+                "1": "member",
+                "2": "silver",
+                "3": "gold"
+            },
+            "other": ""
         },
-        "other": ""
-    },
-    {
-        "company_name": "Orange",
-        "company_addess": "Abidjan, Cocody Riviéra M'Badon",
-        "company_phone": " +225 27 20 00 00 00",
-        "company_url": "https://www.orange.ci/",
-        "image_file": "images/Orange_logo.svg.webp",
-        "membership_level": {
-            "1": "member",
-            "2": "silver",
-            "3": "gold"
+        {
+            "company_name": "Orange",
+            "company_addess": "Abidjan, Cocody Riviéra M'Badon",
+            "company_phone": " +225 27 20 00 00 00",
+            "company_url": "https://www.orange.ci/",
+            "image_file": "images/Orange_logo.svg.webp",
+            "membership_level": {
+                "1": "member",
+                "2": "silver",
+                "3": "gold"
+            },
+            "other": ""
         },
-        "other": ""
-    },
-    {
-        "company_name": "SIR",
-        "company_addess": "Abidjan, Vridi, Rue des Pétroliers, 15 BP 1758",
-        "company_phone": " +225 27 21 21 47 00",
-        "company_url": "https://www.sir.ci/",
-        "image_file": "images/sir.png",
-        "membership_level": {
-            "1": "member",
-            "2": "silver",
-            "3": "gold"
+        {
+            "company_name": "SIR",
+            "company_addess": "Abidjan, Vridi, Rue des Pétroliers, 15 BP 1758",
+            "company_phone": " +225 27 21 21 47 00",
+            "company_url": "https://www.sir.ci/",
+            "image_file": "images/sir.png",
+            "membership_level": {
+                "1": "member",
+                "2": "silver",
+                "3": "gold"
+            },
+            "other": ""
         },
-        "other": ""
-    },
-    {
-        "company_name": "Total Energies Marketing ",
-        "company_addess": "Abidjan, Plateau",
-        "company_phone": "+225 27 21 22 23 23",
-        "company_url": "https://totalenergies.ci/",
-        "image_file": "images/total.jpeg",
-        "membership_level": {
-            "1": "member",
-            "2": "silver",
-            "3": "gold"
+        {
+            "company_name": "Total Energies Marketing ",
+            "company_addess": "Abidjan, Plateau",
+            "company_phone": "+225 27 21 22 23 23",
+            "company_url": "https://totalenergies.ci/",
+            "image_file": "images/total.jpeg",
+            "membership_level": {
+                "1": "member",
+                "2": "silver",
+                "3": "gold"
+            },
+            "other": ""
         },
-        "other": ""
-    },
-    {
-        "company_name": "PROSUMA",
-        "company_addess": " Abidjan, Marcory Zone 4",
-        "company_phone": " +225 27 21 25 34 16",
-        "company_url": "https://groupeprosuma.com/retail/supermarches/",
-        "image_file": "images/prosuma.png",
-        "membership_level": {
-            "1": "member",
-            "2": "silver",
-            "3": "gold"
+        {
+            "company_name": "PROSUMA",
+            "company_addess": " Abidjan, Marcory Zone 4",
+            "company_phone": " +225 27 21 25 34 16",
+            "company_url": "https://groupeprosuma.com/retail/supermarches/",
+            "image_file": "images/prosuma.png",
+            "membership_level": {
+                "1": "member",
+                "2": "silver",
+                "3": "gold"
+            },
+            "other": ""
         },
-        "other": ""
-    },
-    {
-        "company_name": "SIFCA group ",
-        "company_addess": "Boulevard du Havre, Treichville, 01 BP 1289 Abidjan 01, Côte d'Ivoire",
-        "company_phone": "+225 27 21 75 75 75",
-        "company_url": "https://groupesifca.com/",
-        "image_file": "images/Logotype_Sifca.png",
-        "membership_level": {
-            "1": "member",
-            "2": "silver",
-            "3": "gold"
-        },
-        "other": ""
-    }
-]
+        {
+            "company_name": "SIFCA group ",
+            "company_addess": "Boulevard du Havre, Treichville, 01 BP 1289 Abidjan 01, Côte d'Ivoire",
+            "company_phone": "+225 27 21 75 75 75",
+            "company_url": "https://groupesifca.com/",
+            "image_file": "images/Logotype_Sifca.png",
+            "membership_level": {
+                "1": "member",
+                "2": "silver",
+                "3": "gold"
+            },
+            "other": ""
+        }
+    ]
+}
