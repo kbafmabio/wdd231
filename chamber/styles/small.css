@@ -92,7 +92,7 @@ p {
 
 
 h1 {
-    color: #ddd;
+    color: #0b0c54ff;
     text-align: center;
 }
 
@@ -105,8 +105,8 @@ img {
 /* main */
 main {
     margin: 0 auto;
-    padding: 0.5 px;
-    background-color: #696363ff;
+    padding: 0.5rem;
+    background-color: #e4c8d3ff;
     font-family: 'roboto', sans-serif;
 
 }
@@ -126,6 +126,8 @@ button {
     border: none;
     border-radius: 4px;
 }
+
+
 
 /* footer*/
 footer {

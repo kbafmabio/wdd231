@@ -26,8 +26,8 @@ const displayMembers = (members) => {
         image_file.setAttribute('src', member.image_file);
         image_file.setAttribute('alt', `Logo of ${member.company_name}`);
         image_file.setAttribute('loading', 'lazy');
-        image_file.setAttribute('width', '340');
-        image_file.setAttribute('height', '440');
+        image_file.setAttribute('width', '300');
+        image_file.setAttribute('height', '300');
 
         card.appendChild(company_name);
         card.appendChild(image_file);
@@ -37,3 +37,21 @@ const displayMembers = (members) => {
 }
 
 getMemberData(url);
+
+const gridbutton = document.querySelector('#grid');
+const listbutton = document.querySelector('#list');
+const display = document.querySelector('#');
+
+gridbutton.addEventListener('click', () => {
+    display.classList.add('grid');
+    display.classList.remove('list');
+});
+listbutton.addEventListener('click', () => {
+    display.classList.add('list');
+    display.classList.remove('grid');
+});
+
+function showCards() {
+    const cards = document.querySelector("#cards");
+    cards.style.display = "grid";
+}   
