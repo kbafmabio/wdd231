@@ -23,6 +23,11 @@
         border: none;
     }
 
+    div#cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     section {
         background-size: cover;
         background-position: center;
