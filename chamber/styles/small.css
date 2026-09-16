@@ -1,5 +1,6 @@
 /* header*/
 header {
+    background-color: #472f3bff;
     display: grid;
     grid-template-columns: 24px auto 44px;
     padding: 2rem;
@@ -15,15 +16,14 @@ header img {
 
 header span {
     font-size: 1.2rem;
-    color: #472f3bff;
-    text-align: center;
+    color: #e4c8d3ff;
 
 }
 
 .hamburger {
     background: none;
     border: none;
-    color: #a50d0dff;
+    color: #e4c8d3ff;
     cursor: pointer;
 }
 
@@ -41,7 +41,7 @@ header span {
 /* navigation bar */
 .navigation {
     display: none;
-    background-color: #a50d0dff;
+    background-color: #472f3bff;
 }
 
 .navigation.show {
@@ -58,9 +58,9 @@ header span {
 .navigation a {
     display: block;
     padding: .8rem 10px;
-    color: #472f3bff;
+    color: #0b0c54ff;
     text-decoration: none;
-    border-bottom: solid 1px #e4c8d3ff;
+    border: solid 1px #eee;
 
 }
 
@@ -87,9 +87,8 @@ body {
 
 p {
     margin: 0.25rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0.5rem 0.75rem;
-    background-color: #eee;
+
 }
 
 
@@ -99,46 +98,41 @@ h2 {
     text-align: center;
 }
 
-main {
-    display: grid;
-    grid-template-columns: 2/3;
-}
-
-section {
-    display: block;
-
-}
-
-section img {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-
 img {
     width: 50%;
     height: auto;
     align-content: center;
 }
 
-div {
+/* main */
+main {
+    margin: 0 auto;
+    padding: 0.5;
+    background-color: #696363ff;
+    font-family: 'roboto', sans-serif;
+
+}
+
+.menu {
+    margin: 1rem auto;
+    padding: 0.5rem;
     text-align: center;
 
 }
 
-.student-photo img {
-    width: 185px;
-    height: 208px;
-    object-fit: cover;
-    border-radius: 8px;
-    display: block;
-    align-content: center;
+button {
+    background-color: #472f3bff;
+    color: #e4c8d3ff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: 700 px;
+    border: none;
+    border-radius: 4px;
 }
 
 /* footer*/
 footer {
-    background-color: #a50d0dff;
+    background-color: #696363ff;
     padding: 1rem 10px;
 }
 
@@ -167,4 +161,19 @@ footer {
 
 .social a:hover {
     background-color: aliceblue;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card h2 {
+    color: #333;
+}
+
+.card p {
+    color: #666;
 }

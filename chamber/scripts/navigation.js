@@ -20,3 +20,4 @@ navButton.addEventListener('click', () => {
     navButton.classList.toggle('show');
     navbar.classList.toggle('show');
 });
+
