@@ -80,8 +80,6 @@ body {
     font-family: 'roboto', sans-serif;
     font-size: 20px;
     margin: 1rem;
-
-
 }
 
 p {
@@ -104,10 +102,12 @@ img {
 
 /* main */
 main {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
     margin: 0 auto;
     padding: 0.5rem;
     background-color: #e4c8d3ff;
-    font-family: 'roboto', sans-serif;
 
 }
 
