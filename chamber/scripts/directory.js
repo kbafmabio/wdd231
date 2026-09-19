@@ -2,7 +2,7 @@ const url = 'data/members.json';
 
 const cards = document.querySelector('#cards');
 
-async function getMemberData(url) {
+async function getMemberData() {
 
     const response = await fetch(url);
     const data = await response.json();
@@ -11,26 +11,29 @@ async function getMemberData(url) {
 }
 
 const displayMembers = (members) => {
+    cards.innerHTML = '';
 
     members.forEach((member) => {
         // Create elements to add to the div.cards element
-        let card = document.createElement('section');
-        let company_name = document.createElement('h2');
-        let company_address = document.createElement('p');
-        let company_phone = document.createElement('p');
-        let image_file = document.createElement('img');
+        const card = document.createElement('section');
+        const company_name = document.createElement('h2');
+        const company_address = document.createElement('p');
+        const company_phone = document.createElement('p');
+        const image_file = document.createElement('img');
 
         // Build the h2 content out to show the member's company name
         company_name.textContent = member.company_name;
+        company_address.textContent = member.company_address;
         company_phone.textContent = member.company_phone;
 
         image_file.setAttribute('src', member.image_file);
         image_file.setAttribute('alt', `Logo of ${member.company_name}`);
         image_file.setAttribute('loading', 'lazy');
         image_file.setAttribute('width', '300');
-        image_file.setAttribute('height', '300');
+        image_file.setAttribute('height', '200');
 
         card.appendChild(company_name);
+        card.appendChild(company_address);
         card.appendChild(image_file);
         card.appendChild(company_phone);
 
@@ -38,22 +41,17 @@ const displayMembers = (members) => {
     });
 }
 
-getMemberData(url);
+getMemberData();
 
 const gridbutton = document.querySelector('#grid');
 const listbutton = document.querySelector('#list');
-const display = document.querySelector('#');
 
 gridbutton.addEventListener('click', () => {
-    display.classList.add('grid');
-    display.classList.remove('list');
+    cards.classList.add('grid');
+    cards.classList.remove('list');
 });
 listbutton.addEventListener('click', () => {
-    display.classList.add('list');
-    display.classList.remove('grid');
+    cards.classList.add('list');
+    cards.classList.remove('grid');
 });
 
-function showCards() {
-    const cards = document.querySelector("#cards");
-    cards.style.display = "grid";
-}   

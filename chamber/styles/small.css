@@ -1,6 +1,6 @@
 /* header*/
 header {
-    background-color: #696363ff;
+    background-color: #808080;
     display: grid;
     grid-template-columns: 24 px auto;
     padding: 2rem;
@@ -15,14 +15,14 @@ header img {
 
 header span {
     font-size: 1.2rem;
-    color: #e4c8d3ff;
+    color: #6d071a;
 
 }
 
 .hamburger {
     background: none;
     border: none;
-    color: #e4c8d3ff;
+    color: #0a0a30;
     cursor: pointer;
 }
 
@@ -40,7 +40,7 @@ header span {
 /* navigation bar */
 .navigation {
     display: none;
-    background-color: #472f3bff;
+    background-color: #6d071a;
 }
 
 .navigation.show {
@@ -57,18 +57,18 @@ header span {
 .navigation a {
     display: block;
     padding: .8rem 10px;
-    color: #0b0c54ff;
+    color: #808080;
     text-decoration: none;
     border: solid 1px #eee;
 
 }
 
 .navigation li.current {
-    background-color: #e4c8d3ff;
+    background-color: #eee;
 }
 
 .navigation:hover {
-    background-color: #696363ff;
+    background-color: #0a0a30;
 }
 
 h1 {
@@ -83,14 +83,12 @@ body {
 }
 
 p {
-    margin: 0.25rem;
-    padding: 0.5rem 0.75rem;
-
+    margin: 0;
 }
 
 
 h1 {
-    color: #0b0c54ff;
+    color: #0a0a30;
     text-align: center;
 }
 
@@ -100,6 +98,7 @@ img {
     align-content: center;
 }
 
+
 /* main */
 main {
     display: grid;
@@ -107,7 +106,7 @@ main {
     min-height: 100vh;
     margin: 0 auto;
     padding: 0.5rem;
-    background-color: #e4c8d3ff;
+    background-color: #eee;
 
 }
 
@@ -119,19 +118,53 @@ main {
 }
 
 button {
-    background-color: #472f3bff;
-    color: #e4c8d3ff;
+    background-color: #808080;
+    color: #6d071a;
     padding: 0.5rem 1rem;
     cursor: pointer;
     border: none;
     border-radius: 4px;
 }
 
+h2 {
+    margin: 1 rem 0;
+    color: #0a0a30;
+    text-shadow: 0 0 30px #111;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 0.5rem;
+}
+
+section {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 1 px solid rgb(0 0 0 / 10%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section>p {
+    min-height: 60px;
+    font-size: smaller;
+    text-align: center;
+}
+
+img {
+    width: auto;
+    max-width: 325px;
+    box-shadow: 0 0 30px #eee;
+    height: 200px;
+    border: 1px solid #111;
+}
 
 
 /* footer*/
 footer {
-    background-color: #696363ff;
+    background-color: #808080;
     padding: 1rem 10px;
 }
 
