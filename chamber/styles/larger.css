@@ -2,7 +2,7 @@
 
 
     header {
-        grid-template-columns: 24 px auto;
+        grid-template-columns: 60px 1fr auto;
     }
 
     .navigation {
