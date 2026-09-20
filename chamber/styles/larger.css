@@ -28,6 +28,12 @@
         flex-wrap: wrap;
     }
 
+    .hero img {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+    }
+
     section {
         margin: 0.5rem;
         padding: 0.5rem;
