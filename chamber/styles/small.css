@@ -131,6 +131,30 @@ main {
     display: block;
 }
 
+.wcard {
+    border: 1px solid#eee;
+    background-color: azure;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.wcard span {
+    color: #6d071a;
+    margin: 0.5em;
+}
+
+.wcard #description {
+    text-transform: capitalize;
+    color: #6d071a;
+    margin: 0.5rem;
+}
+
+.wcard #temperature {
+    font-size: 2rem;
+    color: #6d071a;
+    margin: 0.5rem;
+}
+
 button {
     background-color: #808080;
     color: #6d071a;
