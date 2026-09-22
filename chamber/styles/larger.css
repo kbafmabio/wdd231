@@ -23,7 +23,7 @@
         border: none;
     }
 
-    .company_card {
+    .cards {
         display: flex;
         flex-wrap: wrap;
     }
