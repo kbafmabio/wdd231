@@ -2,7 +2,7 @@
     "members": [
         {
             "company_name": "city bank",
-            "company_addess": "Immeuble Botreau Roussel , 28, Avenue Delafosse",
+            "company_address": "Immeuble Botreau Roussel , 28, Avenue Delafosse",
             "company_phone": "+225 2776884910",
             "company_url": "https://www.citigroup.com/global/about-us/global-presence/ivory-coast",
             "image_file": "https://logos-world.net/wp-content/uploads/2022/03/Citibank-Logo.png",
@@ -15,7 +15,7 @@
         },
         {
             "company_name": "CIE",
-            "company_addess": "Abidjan, Plateau, 1 avenue Legendre",
+            "company_address": "Abidjan, Plateau, 1 avenue Legendre",
             "company_phone": " +225 27 20 21 08 08",
             "company_url": "https://www.cie.ci/",
             "image_file": "https://apua-asea.org/wp-content/uploads/2023/01/cie.jpg",
@@ -24,11 +24,11 @@
                 "2": "silver",
                 "3": "gold"
             },
-            "other": ""
+            "other": "none"
         },
         {
             "company_name": "Orange",
-            "company_addess": "Abidjan, Cocody Riviéra M'Badon",
+            "company_address": "Abidjan, Cocody Riviéra M'Badon",
             "company_phone": " +225 27 20 00 00 00",
             "company_url": "https://www.orange.ci/",
             "image_file": "https://www.welovecustomers.fr/wp-content/uploads/2021/10/orange_ci-2.jpg",
@@ -37,11 +37,11 @@
                 "2": "silver",
                 "3": "gold"
             },
-            "other": ""
+            "other": "none"
         },
         {
             "company_name": "SIR",
-            "company_addess": "Abidjan, Vridi, Rue des Pétroliers, 15 BP 1758",
+            "company_address": "Abidjan, Vridi, Rue des Pétroliers, 15 BP 1758",
             "company_phone": " +225 27 21 21 47 00",
             "company_url": "https://www.sir.ci/",
             "image_file": "https://theafricabusinessindex.com/wp-content/uploads/2023/01/SIR.png",
@@ -50,11 +50,11 @@
                 "2": "silver",
                 "3": "gold"
             },
-            "other": ""
+            "other": "none"
         },
         {
             "company_name": "Total Energies Marketing ",
-            "company_addess": "Abidjan, Plateau",
+            "company_address": "Abidjan, Plateau",
             "company_phone": "+225 27 21 22 23 23",
             "company_url": "https://totalenergies.ci/",
             "image_file": "https://www.koaci.com/assets/news/thumbnails/1000/2021/06/photo_1622570264.JPG",
@@ -63,11 +63,11 @@
                 "2": "silver",
                 "3": "gold"
             },
-            "other": ""
+            "other": "none"
         },
         {
             "company_name": "PROSUMA",
-            "company_addess": " Abidjan, Marcory Zone 4",
+            "company_address": " Abidjan, Marcory Zone 4",
             "company_phone": " +225 27 21 25 34 16",
             "company_url": "https://groupeprosuma.com/retail/supermarches/",
             "image_file": "https://groupeprosuma.com/wp-content/themes/prosuma-press/_/img/thumbnail.png",
@@ -76,11 +76,11 @@
                 "2": "silver",
                 "3": "gold"
             },
-            "other": ""
+            "other": "none"
         },
         {
             "company_name": "SIFCA group ",
-            "company_addess": "Boulevard du Havre, Treichville, 01 BP 1289 Abidjan 01, Côte d'Ivoire",
+            "company_address": "Boulevard du Havre, Treichville, 01 BP 1289 Abidjan 01, Côte d'Ivoire",
             "company_phone": "+225 27 21 75 75 75",
             "company_url": "https://groupesifca.com/",
             "image_file": "https://prod.cdn-medias.jeuneafrique.com/cdn-cgi/image/q=auto,f=auto,metadata=none,width=1215,fit=cover/https://prod.cdn-medias.jeuneafrique.com/medias/2014/02/21/Logo_Sifca.jpg",
@@ -89,7 +89,7 @@
                 "2": "silver",
                 "3": "gold"
             },
-            "other": ""
+            "other": "none"
         }
     ]
 }
