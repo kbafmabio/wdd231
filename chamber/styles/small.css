@@ -90,10 +90,15 @@ body {
     margin: 1rem;
 }
 
+.hero {
+    position: relative;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
 p {
     margin: 0;
 }
-
 
 h1 {
     color: #0a0a30;
@@ -118,17 +123,12 @@ main {
 
 }
 
+
 .menu {
     margin: 1rem auto;
     padding: 0.5rem;
     text-align: center;
 
-}
-
-.hero {
-    width: 100%;
-    height: auto;
-    display: block;
 }
 
 .wcard {
