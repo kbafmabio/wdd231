@@ -13,6 +13,11 @@
         grid-template-columns: 24 px auto;
     }
 
+    .grid-top {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
     .navigation {
         display: block;
         border-bottom: solid 1px #eee;
