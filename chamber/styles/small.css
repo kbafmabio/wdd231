@@ -80,7 +80,9 @@ header span {
 }
 
 h1 {
+    text-align: center;
     margin-left: 10px;
+    color: #6d071a;
 }
 
 /* body*/
