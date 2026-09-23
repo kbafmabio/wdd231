@@ -39,7 +39,7 @@
         grid-gap: 1.5rem;
     }
 
-    section {
+    /*section {
         margin: 0.5rem;
         padding: 0.5rem;
         border: 1 px solid rgb(0 0 0 / 10%);
@@ -47,6 +47,11 @@
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         align-items: center;
         align-items: center;
+    }*/
+
+    .company-card {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     footer {

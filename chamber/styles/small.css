@@ -90,11 +90,33 @@ body {
     margin: 1rem;
 }
 
+/* hero*/
 .hero {
-    position: relative;
-    text-align: center;
-    margin-bottom: 1.5rem;
+    width: 100%;
+    min-height: 200px;
+    background-image: url("https://govolunteerafrica.org/wp-content/uploads/2020/02/Ivory-Coast1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    padding: 40px;
 }
+
+.hero-content a {
+    background-color: #6d071a;
+    text-decoration: none;
+    color: #eee;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-weight: bold;
+    align-items: center;
+
+}
+
 
 p {
     margin: 0;
@@ -146,7 +168,7 @@ main {
 .wcard #description {
     text-transform: capitalize;
     color: #6d071a;
-    margin: 0.5rem;
+    margin: 1rem;
 }
 
 .wcard #temperature {
