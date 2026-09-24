@@ -42,16 +42,22 @@ const displayMembers = (members) => {
 }
 
 getMemberData();
+//button 
 
-const gridbutton = document.querySelector('#grid');
-const listbutton = document.querySelector('#list');
+const gridButton = document.querySelector('#grid');
+const listButton = document.querySelector('#list');
 
-gridbutton.addEventListener('click', () => {
-    cards.classList.add('grid');
-    cards.classList.remove('list');
+gridButton.addEventListener('click', () => {
+    cards.classList.add("grid");
+    cards.classList.remove("list");
+    gridButton.classList.add('active');
+    listButton.classList.remove('active');
 });
-listbutton.addEventListener('click', () => {
+
+listButton.addEventListener('click', () => {
     cards.classList.add('list');
     cards.classList.remove('grid');
+    listButton.classList.add('active');
+    gridButton.classList.remove('active');
 });
 
