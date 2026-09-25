@@ -271,3 +271,85 @@ footer {
 .card p {
     color: #666;
 }
+
+/*form*/
+form {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #808080;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: grid;
+    gap: 12px;
+}
+
+/*label*/
+label {
+    font-weight: bold;
+    color: #6d071a;
+    margin-top: 8px;
+
+}
+
+/*text fields, select and text area*/
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: white;
+
+}
+
+/*textarea*/
+texarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/*text focus*/
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #0a0a30;
+    box-shadow: 0 0 4px rgba(0, 102, 204, 0.3);
+
+}
+
+/*button*/
+button[type="submit"] {
+    margin-top: 15px;
+    padding: 12px 20px;
+
+    background-color: #6d071a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*button hover*/
+button[type="submit"]:hover {
+    background-color: #0a0a30;
+}
+
+input:required:invvalid,
+select:required:invalid {
+    border-color: #ccc;
+}
+
+input:required:valid,
+select:required:valid {
+    border-color: #28a745;
+}
