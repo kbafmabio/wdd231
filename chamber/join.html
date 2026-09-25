@@ -72,23 +72,33 @@
             <input type="text" id="organization_title" name="organization_title"
                 title="applicant's organizational title" autocomplete="organization-title" pattern="[A-Za-z -]{7,}">
 
-            <label for="email"> First Name</label>
-            <input type="text" id="email" name="email" title="Email address" autocomplete="email"
+            <label for="email"> Email</label>
+            <input type="email" id="email" name="email" title="Email address" autocomplete="email"
                 placeholder="example@email.com" required>
 
-            <label for="mobile_phone"> Mobile phone</label>
-            <input type="text" name="first_name" title="applicant first name" autocomplete="additional-name" required>
+            <label for="phone"> Mobile Phone Number</label>
+            <input type="tel" id="phone" name="phone" title="Mobile phone number" autocomplete="tel" required>
 
-            <label for="first_name"> First Name</label>
-            <input type="text" name="first_name" title="applicant first name" autocomplete="additional-name" required>
+            <label for="organization"> Business/Organization's name</label>
+            <input type="text" id="business" name="business_name" title="Applicant's business name"
+                autocomplete="business_name" required>
 
-            <label for="first_name"> First Name</label>
-            <input type="text" name="first_name" title="applicant first name" autocomplete="additional-name" required>
+            <label for="membership"> Membership level</label>
+            <select name="membership" id="membership" title="membership level" requuiered>
+                <option value="">Select a membership level</option>
+                <option value="np">NP Membership</option>
+                <option value="bronze">Bronze Membership</option>
+                <option value="silver">Silver Member`ship</option>
+                <option value="gold">Gold Membership</option>
 
-            <label for="first_name"> First Name</label>
-            <input type="text" name="first_name" title="applicant first name" autocomplete="additional-name" required>
+            </select>
 
+            <label for="description">Description</label>
+            <textarea name="description" id="description" title="Businesss or organisation description"></textarea>
 
+            <input type="hidden" id="timestamp" name="timestamp">
+
+            <button type="submit">Submit</button>
         </form>
 
 
