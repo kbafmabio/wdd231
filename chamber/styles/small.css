@@ -27,6 +27,8 @@ header span {
 
 }
 
+/* show the hamburger button*/
+
 .hamburger {
     background: none;
     border: none;
@@ -120,12 +122,15 @@ body {
 }
 
 
-p {
-    margin: 0;
+section p {
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.7;
+    text-align: center;
 }
 
 h1 {
-    color: #0a0a30;
+    color: #02020f;
     text-align: center;
 }
 
@@ -207,6 +212,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: justify;
 }
 
 section>p {
@@ -223,6 +229,10 @@ img {
     border: 1px solid #111;
 }
 
+h3 {
+    text-decoration: underline;
+    color: #6d071a;
+}
 
 /* footer*/
 footer {
