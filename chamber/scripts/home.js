@@ -26,9 +26,9 @@ async function apiFetch() {
 
 function displayResults(data) {
 
-    myTown.innerHTML = data.name
-    description.innerHTML = data.weather[0].description
-    temperature.innerHTML = `${data.main.temp}&deg; F`
+    myTown.innerHTML = `<div> My City </div> ${data.name}`
+    description.innerHTML = ` <div>Weather Description </div> ${data.weather[0].description}`
+    temperature.innerHTML = ` <div>Temperature:</div> ${data.main.temp}&deg; F`
     const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
     myGraphic.setAttribute('SRC', iconsrc)
     myGraphic.setAttribute('alt',)
@@ -60,7 +60,7 @@ function displayForecast(data) {
         const temp = Math.round(day.main.temp);
 
         const forecastItem = document.createElement('p');
-        forecastItem.innerHTML = `<strong>${dayName}:</strong> ${temp}&deg;C`;
+        forecastItem.innerHTML = `<strong>${dayName}:</strong> ${temp}&deg;F`;
         forecastContainer.appendChild(forecastItem);
     });
 }

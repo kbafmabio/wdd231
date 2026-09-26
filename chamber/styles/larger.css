@@ -39,19 +39,19 @@
         grid-gap: 1.5rem;
     }
 
-    /*section {
+    section {
         margin: 0.5rem;
         padding: 0.5rem;
-        border: 1 px solid rgb(0 0 0 / 10%);
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        align-items: center;
-        align-items: center;
-    }*/
-
-    section company-card {
+        border: 2 px solid rgb(0 0 0 / 20%);
         display: flex;
-        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2px;
+    }
+
+    .company-card {
+        display: flex;
+        align-items: center;
     }
 
     footer {
