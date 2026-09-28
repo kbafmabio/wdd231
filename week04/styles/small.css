@@ -1,0 +1,15 @@
+#openButton {
+    background-color: aqua;
+}
+
+#dialogBox {
+    background-color: blueviolet;
+}
+
+#closeButton {
+    background-color: blue;
+}
+
+::backdrop {
+    background-color: rgb(255, 128, 0, 0.5);
+}
