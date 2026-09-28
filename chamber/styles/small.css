@@ -363,3 +363,12 @@ input:required:valid,
 select:required:valid {
     border-color: #28a745;
 }
+
+.memb-card {
+    background-color: #808080;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: grid;
+    gap: 12px;
+}
