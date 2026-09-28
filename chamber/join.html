@@ -34,6 +34,7 @@
     <script src="scripts/date.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/home.js" defer></script>
+    <script src="scripts/join.js" defer></script>
 
 
 </head>
@@ -99,39 +100,69 @@
 
                 <input type="hidden" id="timestamp" name="timestamp">
 
-                <button type="submit">Submit</button>
+                <button type="submit">Apply for MemberShip</button>
             </form>
             <!-- a card to display inmformation-->
-            <div class="memb-card">
-                <h2>NP Membership</h2>
-                <p>
-                    It is for non profit organizations and there is no fee to pay
-                </p>
-                <button id="learn"> Learn More</button>
-            </div>
-            <div class="memb-card">
-                <h2>Bronze Membership </h2>
-                <p>
-                    It is design for an operational member witch focus on maintaining continuity of business activities.
-                </p>
-                <button id="learn"> Learn More</button>
-            </div>
-            <div class="memb-card">
-                <h2>Silver Membership</h2>
-                <p> It is for the member that follow a Business Continuity and Incident Management Plan. they are
-                    responsible for coordinating response efforts,
-                </p>
-                <button id="learn"> Learn More</button>
-            </div>
-            <div class="memb-card">
-                <h2>Gold Membership</h2>
-                <p>
-                    It is design for responsible for considering the long-term implications of an incident.
-                </p>
-                <button id="learn"> Learn More </button>
-            </div>
-        </div>
+            <aside>
+                <div class="memb-card">
+                    <h2>NP Membership</h2>
+                    <p>
+                        It is for non profit organizations and there is no fee to pay
+                    </p>
+                    <button id="openNp" class="button"> Learn More</button>
+                </div>
+                <div class="memb-card">
+                    <h2>Bronze Membership </h2>
+                    <p>
+                        It is design for an operational member witch focus on maintaining continuity of business
+                        activities.
+                    </p>
+                    <button id="openBronze" class="button"> Learn More</button>
+                </div>
+                <div class="memb-card">
+                    <h2>Silver Membership</h2>
+                    <p> It is for the member that follow a Business Continuity and Incident Management Plan. they are
+                        responsible for coordinating response efforts,
+                    </p>
+                    <button id="openSilver" class="button"> Learn More</button>
 
+                </div>
+                <div class="memb-card">
+                    <h2>Gold Membership</h2>
+                    <p>
+                        It is design for responsible for considering the long-term implications of an incident.
+                    </p>
+                    <button id="openGold" class="button"> Learn More </button>
+                </div>
+            </aside>
+            <dialog id="dialogBoxNp">
+                <h2>Additional Information</h2>
+                <p> A non-profit member is a member who does not have shares in the business. It costs free</p>
+                <button id="closeNp" class="close-button">❌</button>
+            </dialog>
+            <dialog id="dialogBoxBronze">
+                <h2>Bronze Information</h2>
+                <p>Bronze membership provides basic benefits to members.
+                    cost: free
+                </p>
+
+                <button id="closeBronze" class="close-button">❌</button>
+
+            </dialog>
+            <dialog id="dialogBoxSilver">
+                <h2>Bronze Information</h2>
+                <p>Silver membership provides additional benefits to members.</p>
+                <button id="closeSilver" class="close-button">❌</button>
+
+            </dialog>
+            <dialog id="dialogBoxGold">
+                <h2>Bronze Information</h2>
+                <p> Gold membership provides the highest level of membership benefits.</p>
+                <button id="closeGold" class="close-button">❌</button>
+
+            </dialog>
+
+        </div>
 
     </main>
 

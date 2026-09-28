@@ -197,6 +197,8 @@ h2 {
     margin: 1rem 0;
     color: #0a0a30;
     text-shadow: 0 0 30px #111;
+    font-weight: lighter;
+    background-color: #808080;
 }
 
 .cards {
@@ -365,10 +367,44 @@ select:required:valid {
 }
 
 .memb-card {
-    background-color: #808080;
+    background-color: #ddd;
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     display: grid;
-    gap: 12px;
+    grid-gap: 10px;
+    text-align: center;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+::backdrop {
+    background-color: rgba(0, 102, 204, 0.3);
+}
+
+dialog {
+    background-color: beige;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    border: 0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background: #333;
+    color: #eee;
+    font-weight: 700;
+    padding: 0.75rem 1rem;
+
+    &:hover &:focus {
+        background: #6d071a;
+    }
 }

@@ -60,6 +60,11 @@
         align-items: center;
     }
 
+    .container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
     footer {
         display: flex;
         justify-content: space-between;
