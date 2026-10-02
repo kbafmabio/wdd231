@@ -4,7 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This page contains information about the benefit of joining the chamber and a membership application form.">
+
+    <meta name="author" content="Kouassi Bienvenue Mabio">
+
+    <meta property="og:title" content="Ivory Coast Chamber of Commerce home page">
+
+    <meta property="og:description"
+        content="This page contains information about the benefit of joining the chamber and a membership application form.">
+
+    <meta property="og:url" content="https://kbafmabio.github.io/wdd231/chamber/index.html">
+
+    <meta property="og:image" content="https://kbafmabio.github.io/wdd231/chamber/join.html/logo.webp">
+
     <title> Thank you Page</title>
+    <link rel="icon" href="chamber/favicon.ico">
+    <link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+
 </head>
 
 <body>
@@ -12,7 +42,25 @@
 
     </header>
     <main>
-        Thank you for filling the form
+        <section class="thankyou-card">
+            <h1>Thank You!</h1>
+            <p>We received your membership application.</p>
+
+            <div class="form-summary">
+                <h2>Submitted Information</h2>
+
+                <p><strong>First Name:</strong> <span id="first_name"></span></p>
+                <p><strong>Last Name:</strong> <span id="last_name"></span></p>
+                <p><strong>Organization Title:</strong> <span id="organisation_title"></span></p>
+                <p><strong>Email:</strong> <span id="email"></span></p>
+                <p><strong>Mobile Number:</strong> <span id="phone"></span></p>
+                <p><strong>Business Name:</strong> <span id="business"></span></p>
+                <p><strong>Membership Level:</strong> <span id="membership_level"></span></p>
+                <p><strong>Description:</strong> <span id="description"></span></p>
+                <p><strong>Application Date:</strong> <span id="timestamp"></span></p>
+
+            </div>
+        </section>
     </main>
 </body>
 

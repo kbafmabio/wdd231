@@ -194,12 +194,10 @@ button {
 }
 
 h2 {
-    margin: 1rem 0;
-    color: #0a0a30;
-    text-shadow: 0 0 30px #111;
-    font-weight: lighter;
-    background-color: #808080;
+    color: #6d071a;
+    text-align: center;
 }
+
 
 .cards {
     display: grid;
@@ -407,4 +405,113 @@ dialog {
     &:hover &:focus {
         background: #6d071a;
     }
+
+    /* animation for the membership cards */
+    .memb-card,
+    .button {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: cardEntrance 0.5s ease-out forwards;
+    }
+
+    .memb-card,
+    .button:nth-child(1) {
+        animation-delay: 0.1s;
+    }
+
+    .memb-card,
+    .button:nth-child(2) {
+        animation-delay: 0.25s;
+    }
+
+    .memb-card,
+    .button:nth-child(3) {
+        animation-delay: 0.4s;
+    }
+
+    .memb-card,
+    .button:nth-child(4) {
+        animation-delay: 0.55s;
+    }
+
+    @keyframes cardEntrance {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+}
+
+/*fieldset*/
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+legend {
+    font-weight: bold;
+    color: #6d071a;
+    padding: 0 10px;
+}
+
+div.memb-card {
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-gap: 10px;
+    text-align: center;
+}
+
+/*THANK you page styling*/
+.thankyou-card {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.thankyou-card h1 {
+    color: #6d071a;
+    margin-bottom: 0.5rem;
+}
+
+.form-summary {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #f4f7fa;
+    border-left: 5px solid #6d071a;
+    border-radius: 8px;
+}
+
+.form-summary h2 {
+    margin-top: 0;
+    color: #6d071a;
+}
+
+.form-summary p {
+    padding: 0.75rem 0;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.form-summary p:last-child {
+    border-bottom: none;
+}
+
+.form-summary strong {
+    display: inline-block;
+    min-width: 160px;
+    color: #808080;
 }
