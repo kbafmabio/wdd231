@@ -401,50 +401,47 @@ dialog {
     color: #eee;
     font-weight: 700;
     padding: 0.75rem 1rem;
+}
 
-    &:hover &:focus {
-        background: #6d071a;
-    }
+&:hover &:focus {
+    background: #6d071a;
+}
 
-    /* animation for the membership cards */
-    .memb-card,
-    .button {
+/* animation for the membership cards */
+.memb-card {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: cardEntrance 0.6s ease-out forwards;
+}
+
+.memb-card:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.memb-card:nth-child(2) {
+    animation-delay: 0.25s;
+}
+
+.memb-card:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.memb-card:nth-child(4) {
+    animation-delay: 0.55s;
+}
+
+@keyframes cardEntrance {
+    from {
         opacity: 0;
-        transform: translateY(20px);
-        animation: cardEntrance 0.5s ease-out forwards;
-    }
-
-    .memb-card,
-    .button:nth-child(1) {
-        animation-delay: 0.1s;
-    }
-
-    .memb-card,
-    .button:nth-child(2) {
-        animation-delay: 0.25s;
-    }
-
-    .memb-card,
-    .button:nth-child(3) {
-        animation-delay: 0.4s;
-    }
-
-    .memb-card,
-    .button:nth-child(4) {
-        animation-delay: 0.55s;
-    }
-
-    @keyframes cardEntrance {
-        opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(30px);
     }
 
     to {
         opacity: 1;
         transform: translateY(0);
-
     }
 }
+
 
 /*fieldset*/
 fieldset {
