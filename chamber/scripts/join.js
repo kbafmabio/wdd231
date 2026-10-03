@@ -43,18 +43,3 @@ closeGold.addEventListener("click", () => {
     dialogBoxGold.close();
 });
 
-const params = new URLSearchParams(window.location.search);
-
-document.getElementById("first_name").textContent = params.get("first_name") || "";
-document.getElementById("last_name").textContent = params.get("last_name") || "";
-document.getElementById("organisation_title").textContent = params.get("organisation_title") || "";
-document.getElementById("email").textContent = params.get("email") || "";
-document.getElementById("phone").textContent = params.get("phone") || "";
-document.getElementById("business").textContent = params.get("business") || "";
-document.getElementById("membership_level").textContent = params.get("membership_level") || "";
-
-document.getElementById("timestamp").textContent = params.get("timestamp") || "";
-
-document.getElementById("description").textContent = params.get("description") || "";
-
-document.getElementById("timestamp").value = new Date().toLocaleString();
