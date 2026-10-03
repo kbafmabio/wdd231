@@ -35,6 +35,7 @@
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/home.js" defer></script>
     <script src="scripts/join.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
 
 
 </head>
@@ -66,18 +67,17 @@
                 <legend>Membership Application Form</legend>
 
                 <form action="thankyou.html" method="get">
-                    <label for="first_name"> First Name *</label>
-                    <input type="text" id="first_name" name="first_name" title="applicant's first name"
-                        autocomplete="given-name" required>
+                    <label for="first"> First Name *</label>
+                    <input type="text" id="first" name="first" title="applicant's first name" autocomplete="given-name"
+                        required>
 
-                    <label for="last_name"> Last Name *</label>
-                    <input type="text" id="last_name" name="last_name" title="applicant's last name"
-                        autocomplete="family-name" required>
+                    <label for="last"> Last Name *</label>
+                    <input type="text" id="last" name="last" title="applicant's last name" autocomplete="family-name"
+                        required>
 
-                    <label for="organisation_title"> Organizational Title</label>
-                    <input type="text" id="organisation_title" name="organisation_title"
-                        title="applicant's organizational title" autocomplete="organization-title"
-                        pattern="[A-Za-z -]{7,}">
+                    <label for="title"> Organizational Title</label>
+                    <input type="text" id="title" name="title" title="applicant's organizational title"
+                        autocomplete="title" pattern="[A-Za-z -]{7,}">
 
                     <label for="email"> Email Adress*</label>
                     <input type="email" id="email" name="email" title="Email address" autocomplete="email"
@@ -86,9 +86,9 @@
                     <label for="phone"> Mobile Phone Number *</label>
                     <input type="tel" id="phone" name="phone" title="Mobile phone number" autocomplete="tel" required>
 
-                    <label for="organization"> Business/Organization's name *</label>
-                    <input type="text" id="business" name="business_name" title="Applicant's business name"
-                        autocomplete="business_name" required>
+                    <label for="business"> Business/Organization's name *</label>
+                    <input type="text" id="business" name="business" title="Applicant's business name"
+                        autocomplete="business" required>
 
                     <label for="membership"> Membership level *</label>
                     <select name="membership" id="membership" title="membership" required>
@@ -135,14 +135,16 @@
                 </div>
             </fieldset>
             <dialog id="dialogBoxNp">
-                <h2>Additional Information</h2>
+                <h2>Non Profit Information</h2>
+                <p>cost: Free</p>
                 <p> ✅It is for non profit organizations and there is no fee to pay
                 </p>
-                <p✅>A non-profit member is a member who does not have shares in the business. It costs free</p✅>
-                <button id="closeNp" class="close-button">❌</button>
+                <p✅>A non-profit member is a member who does not have shares in the business.</p>
+                    <button id="closeNp" class="close-button">❌</button>
             </dialog>
             <dialog id="dialogBoxBronze">
                 <h2>Bronze Information</h2>
+                <p>cost: 100,000 FCFA</p>
                 <p>✅Bronze membership provides basic benefits to members.
                 </p>
                 <p>✅ It is design for an operational member witch focus on maintaining continuity of business
@@ -154,6 +156,7 @@
             </dialog>
             <dialog id="dialogBoxSilver">
                 <h2>Silver Information</h2>
+                <p>cost: 200,000 FCFA</p>
                 <p>✅Silver membership provides additional benefits to members.</p>
                 <p>✅ It is for the member that follow a Business Continuity and Incident Management Plan.
                 </p>
@@ -163,6 +166,7 @@
             </dialog>
             <dialog id="dialogBoxGold">
                 <h2>Gold Information</h2>
+                <p>cost: 300,000 FCFA</p>
                 <p>✅ Gold membership provides the highest level of membership benefits.</p>
                 <p>
                     ✅It is design for responsible for considering the long-term implications of an incident.
