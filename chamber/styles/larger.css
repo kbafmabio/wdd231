@@ -16,7 +16,6 @@
 
     .navigation ul {
         display: flex;
-        justify-content: flex-end;
     }
 
     .navigation a {
@@ -30,7 +29,6 @@
 
     .hero img {
         width: 100%;
-        object-fit: cover;
     }
 
     .event-grid {

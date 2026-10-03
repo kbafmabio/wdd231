@@ -85,6 +85,7 @@ h1 {
     text-align: center;
     margin-left: 10px;
     color: #6d071a;
+    text-align: center;
 }
 
 /* body*/
@@ -128,18 +129,6 @@ section p {
     line-height: 1.7;
     text-align: center;
 }
-
-h1 {
-    color: #02020f;
-    text-align: center;
-}
-
-img {
-    width: 50%;
-    height: auto;
-    align-content: center;
-}
-
 
 /* main */
 main {
