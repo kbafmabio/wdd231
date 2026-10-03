@@ -398,6 +398,9 @@ dialog {
 
 /* animation for the membership cards */
 .memb-card {
+    border: 1px solid #0a0a30;
+    border-radius: 10px;
+    box-sizing: border-box;
     opacity: 0;
     transform: translateY(30px);
     animation: cardEntrance 0.6s ease-out forwards;
