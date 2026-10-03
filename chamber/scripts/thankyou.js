@@ -26,7 +26,7 @@ formSummary.innerHTML = `
     <p><strong>Last Name:</strong> ${lastName}</p>
     <p><strong>Email:</strong> ${email}</p>
     <p><strong>Mobile Number:</strong> ${phone}</p>
-    <p><strong>Business / Organization:</strong> ${organization}</p>t
+    <p><strong>Business / Organization:</strong> ${organization}</p>
     <p><strong>Organizational Title:</strong> ${organizationalTitle}</p>
     <p><strong>Membership Level:</strong> ${membership}</p>
     <p><strong>Application Date:</strong> ${formattedDate}</p>
