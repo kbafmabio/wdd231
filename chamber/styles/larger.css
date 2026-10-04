@@ -2,12 +2,16 @@
 
 
     header {
-        grid-template-columns: 60px 1fr auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
     }
 
     .navigation {
-        display: block;
-        border-bottom: solid 1px #eee;
+        display: flex;
+        flex-direction: column;
+
     }
 
     button.hamburger {
@@ -16,6 +20,7 @@
 
     .navigation ul {
         display: flex;
+        flex-direction: row;
     }
 
     .navigation a {
