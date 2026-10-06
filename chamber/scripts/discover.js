@@ -10,6 +10,8 @@ function displayItems(places) {
         const photo = document.createElement("img");
         photo.src = `images/${place.photoUrl}`;
         photo.alt = place.name;
+        photo.width = 300;
+        photo.height = 200;
         card.appendChild(photo);
 
         const title = document.createElement("h2");
