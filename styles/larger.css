@@ -9,9 +9,13 @@
         align-items: center;
     }
 
-    .hamburger {
+    .hamburger.show {
         display: none;
+    }
 
+    .navigation {
+        display: block;
+        text-align: center;
     }
 
     .navigation ul {
@@ -20,7 +24,7 @@
 
     .grid-top {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr 1fr;
     }
 
     .coursesCard {

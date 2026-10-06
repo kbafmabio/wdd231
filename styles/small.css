@@ -41,7 +41,7 @@ header span {
 /* navigation bar */
 .navigation {
     display: none;
-    background-color: purple;
+    background-color: rgb(134, 2, 106);
 }
 
 .navigation.show {
@@ -53,12 +53,13 @@ header span {
     margin: 0;
     padding: 0;
 
+
 }
 
 .navigation a {
     display: block;
     padding: .8rem 10px;
-    color: #28114d;
+    color: #1e004e;
     text-decoration: none;
     border-bottom: solid 1px #ddd;
 
@@ -73,7 +74,7 @@ header span {
 }
 
 h1 {
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 /* body*/
@@ -89,6 +90,7 @@ p {
     margin: 0.25rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0.5rem 0.75rem;
+    justify-content: center;
 
 }
 
