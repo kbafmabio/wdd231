@@ -87,11 +87,13 @@ header span {
     padding: 0.5rem 1rem;
 
 }
+
 .navigation li.current {
     background-color: #808080;
     color: #eee;
 
 }
+
 .navigation li.current a {
     background-color: #808080;
 }
@@ -522,4 +524,42 @@ div.memb-card {
     display: inline-block;
     min-width: 160px;
     color: #808080;
+}
+
+/* places container */
+#placesContainer div {
+    margin: 1rem 8px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    display: grid;
+    grid-template-areas:
+        "name"
+        "photograph"
+        "description"
+        "location";
+}
+
+#placesContainer div h2 {
+    margin: 1rem 8px;
+    grid-area: name;
+}
+
+#placesContainer div p {
+    margin: 1rem 10px;
+    grid-area: description;
+
+}
+
+#placesContainer div img {
+    width: 100%;
+    grid-area: photograph;
+
+}
+
+#placeContainer div address {
+    margin: 1rem 10px;
+    grid-area: location;
 }

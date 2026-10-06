@@ -1,0 +1,13 @@
+    @media only screen and (min-width: 38rem) {
+        #placesContainer div {
+            grid-template-areas:
+                "photograph  name"
+                "photograph  description"
+                "photograph  location";
+
+        }
+
+        #placesContainer div img {
+            width: 300px;
+        }
+    }
