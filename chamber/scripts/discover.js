@@ -1,2 +1,2 @@
-import { places } from "../data/places.json";
-console.log();
+import { places } from "../data/places.mjs";
+console.log(places);
