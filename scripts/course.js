@@ -77,7 +77,7 @@ const courses = [
         completed: false
     }
 ]
-export default courses;
+
 const coursescontainer = document.querySelector('#courses');
 
 courses.forEach(course => {
