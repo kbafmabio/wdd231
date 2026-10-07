@@ -42,9 +42,9 @@ export const places = [
         "photoUrl": "basilic.webp"
     },
     {
-        "name": "Cathédrale Saint-Paul d’Abidjan",
-        "address": "8XMH+5X9, Abidjan, Côte d’Ivoire",
-        "description": "A famous Catholic cathedral located in the Plateau district of Abidjan. Its modern architecture, large stained-glass windows and spectacular position overlooking the Ébrié Lagoon make it one of the city's most recognizable landmarks.",
-        "photoUrl": "cathedrale.webp"
+        "name": "Abidjan Ivory Coast Temple",
+        "address": "Lot 118 Riviera Attoban, Bonoumin, Cocody, Abidjan, Côte d'Ivoire",
+        "description": "The Abidjan Ivory Coast Temple is a temple of The Church of Jesus Christ of Latter-day Saints and the first temple built in Côte d’Ivoire. It was announced in 2015, construction began in 2018, and the temple was dedicated on May 25, 2025.",
+        "photoUrl": "templeabidjan.webp"
     }
 ]
