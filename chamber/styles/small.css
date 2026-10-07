@@ -563,3 +563,7 @@ div.memb-card {
     margin: 1rem 10px;
     grid-area: location;
 }
+
+#visitMessage {
+    color: #6d071a;
+}
