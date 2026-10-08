@@ -4,6 +4,34 @@
 
 }
 
+/*------------------- hearder ---------------------*/
+header {
+    display: grid;
+    grid-template-columns: 35px auto 40px;
+    padding: 1.5rem;
+}
+
+span {
+    font-size: larger;
+    font-weight: bold;
+    margin: .5rem;
+    text-align: center;
+    color: #FF5722;
+}
+
+.hamburger {
+    color: #333333;
+    cursor: pointer;
+
+}
+
+.hamburger::before {
+    content: "\2630";
+}
+
+.hamburger::before.show() {}
+
+/*---------------- body --------------------*/
 body {
     font-family: 'Roboto Mono', monospace;
     background-color: #FFFFFF;

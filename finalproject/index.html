@@ -4,24 +4,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kouassi Bienvenue Mabio">
+    <meta name="description"
+        content="Extra Market Plus Home page. Explore the fruits and legumes market to find our choices products for our happiness ">
+
+
     <title>Extra Market plus - Home page</title>
+
+    <meta property="og:title" content="Project plan for the final project">
+    <meta property="og:description" content="This page contains the project plan for the final project.">
+    <meta property="og:url" content="https://kbafmabio.github.io/wdd231/finalproject/projectplan.html">
+    <meta property="og:image" content="https://kbafmabio.github.io/wdd231/finalproject/images/projectplan.webp">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
 
 <header>
     <img src="images/logoextra.webp" alt="Extra market" width="50" height="50">
-    <nav class="navigation">
-        <ul>
-            <li class="current"> <a href="index.html">Home page</a></li>
-            <li> <a href="product.html"> Product</a></li>
-            <li> <a href="contact.html">Contact Us</a></li>
+    <span>Extra Market Plus</span>
+    <button id="ham-button" class="hamburger"></button>
 
-
-        </ul>
-
-    </nav>
 </header>
+<nav class="navigation">
+    <ul>
+        <li class="current"> <a href="index.html">Home page</a></li>
+        <li> <a href="products.html"> Products</a></li>
+        <li> <a href="contactus.html">Contact Us</a></li>
+
+
+    </ul>
+
+</nav>
 
 <body>
+    <main>
+        <h1>Home</h1>
+        <div>
+            <section>
+                <h2> Extra market Plus</h2>
+                <p> Extra Market plus is the favorite place whereby you will be able to see every needs about prodducts
+                    of cooking. As you check what you need you can make some selection and order them. </p>
+            </section>
+            <section>
+                <h2>
+                    <img src="images/fruits.jpg" alt="extra market fruits" loading="lazy">
+                </h2>
+            </section>
+        </div>
+
+        <div>
+            <section id="location"></section>
+            <section id="weather"></section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="https://www.facebook.com/bienvenue.felicite.mabio" target="_blank">
+                <img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/bienvenue-felicite-kouassi-77145a230/" target="_blank"> <img
+                    src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
+            <a href="https://github.com/kbafmabio" target="_blank"> <img src="images/github.svg" alt="github" width="16"
+                    height="16"></a>
+            <a href="https://web.messenger.com/t/1293900849509963/" target="_blank"> <img src="images/messenger.svg"
+                    alt="messenger" width="16" height="16"></a>
+        </div>
+        <p>@<span id="currentyear"></span> | Felicite Kouassi mabio | Abidjan/Ivory Coast </p>
+
+        <p id="lastmodified">Last Modification : </p>
+
+    </footer>
 
 </body>
 
