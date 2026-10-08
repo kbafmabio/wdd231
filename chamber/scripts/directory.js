@@ -91,4 +91,4 @@ if (!lastVisit) {
 }
 
 // Store the current visit
-localStorage.setItem("lastVisit", today);
+localStorage.setItem("visitMessage", today);
