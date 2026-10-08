@@ -79,16 +79,16 @@ if (!lastVisit) {
     );
 
     if (days < 1) {
-        visitMessage.textContent =
+        visitMessage.innerHTML =
             "Back so soon! Awesome!";
     } else if (days === 1) {
-        visitMessage.textContent =
+        visitMessage.innerHTML =
             "You last visited 1 day ago.";
     } else {
-        visitMessage.textContent =
+        visitMessage.innerHTML =
             `You last visited ${days} days ago.`;
     }
 }
 
 // Store the current visit
-localStorage.setItem("visitMessage", today);
+localStorage.setItem("lastVisit", today);
