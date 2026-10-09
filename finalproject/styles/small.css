@@ -7,21 +7,33 @@
 /*------------------- hearder ---------------------*/
 header {
     display: grid;
-    grid-template-columns: 35px auto 40px;
+    grid-template-columns: 60px auto 30px;
+    background-color: #ffffff;
     padding: 1.5rem;
+
 }
 
-span {
-    font-size: larger;
+header img {
+    width: 100px;
+}
+
+header span {
+    font-size: xx-large;
     font-weight: bold;
     margin: .5rem;
-    text-align: center;
     color: #FF5722;
+    text-align: center;
+
 }
 
+
 .hamburger {
+    border: none;
+    background-color: #ffff;
+    font-size: larger;
     color: #333333;
     cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -29,12 +41,49 @@ span {
     content: "\2630";
 }
 
-.hamburger::before.show() {}
+.hamburger.show::before {
+    content: "\00D7"
+}
+
+/*---------------- navigation --------------------*/
+.navigation.show {
+    display: none;
+}
+
+.navigation {
+    background-color: #4CAF50;
+    margin: 0;
+}
+
+.navigation ul {
+    list-style-type: none;
+}
+
+.current {
+    background-color: #FF5722;
+
+}
+
+.navigation a:hover {
+    background-color: #f5eccd;
+    color: #4CAF50;
+}
+
+.navigation a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+}
 
 /*---------------- body --------------------*/
 body {
     font-family: 'Roboto Mono', monospace;
-    background-color: #FFFFFF;
+    background-color: #f5eccd;
     color: #333333;
     line-height: 1.6;
     padding: 20px;
@@ -42,9 +91,8 @@ body {
 
 h1 {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 2.5rem;
-    color: #4CAF50;
-    text-align: center;
+    font-size: 2rem;
+    color: #333333;
     margin-top: 20px;
 }
 
@@ -79,4 +127,10 @@ img {
     margin: 0 auto;
     max-width: 100%;
     height: auto;
+}
+
+footer {
+    display: block;
+    background-color: #fff;
+    color: #333333;
 }

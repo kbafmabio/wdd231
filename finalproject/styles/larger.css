@@ -1,0 +1,30 @@
+@media only screen and (min-width: 64rem) {
+
+
+
+    .hamburger {
+        display: none;
+    }
+
+
+    .navigation ul {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .navigation ul li {
+        flex: 1 1 100%;
+
+    }
+
+    .grid-top {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
