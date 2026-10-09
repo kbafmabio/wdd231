@@ -115,7 +115,9 @@ p {
     margin-bottom: 10px;
 }
 
+/*---------------- footer --------------------*/
 footer {
+    background-color: #fff;
     text-align: center;
     margin-top: 20px;
     font-size: 0.9rem;
@@ -129,8 +131,14 @@ img {
     height: auto;
 }
 
-footer {
-    display: block;
-    background-color: #fff;
-    color: #333333;
+/*---------------- social --------------------*/
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.social a {
+    display: flex;
+
 }
