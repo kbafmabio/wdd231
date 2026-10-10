@@ -31,3 +31,36 @@ function displayItems(places) {
 }
 
 displayItems(places);
+
+// local storage message code
+
+
+const visitMessage = document.querySelector("#visitMessage");
+
+const now = Date.now();
+const lastVisit = localStorage.getItem("lastVisit");
+
+// First visit
+if (lastVisit === null) {
+    visitMessage.textContent =
+        "Welcome! Let us know if you have any questions.";
+} else {
+    // Calculate the time between visits in milliseconds
+    const difference = now - Number(lastVisit);
+
+    // Convert milliseconds to whole days
+    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+
+    if (difference < 24 * 60 * 60 * 1000) {
+        visitMessage.textContent = "Back so soon! Awesome!";
+    } else {
+        const dayWord = days === 1 ? "day" : "days";
+
+        visitMessage.textContent =
+            `You last visited ${days} ${dayWord} ago.`;
+    }
+}
+
+// Save the current visit date for the next visit
+localStorage.setItem("lastVisit", now);
+
