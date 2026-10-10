@@ -122,6 +122,7 @@ footer {
     margin-top: 20px;
     font-size: 0.9rem;
     color: #4CAF50;
+    align-items: center;
 }
 
 img {
@@ -140,5 +141,20 @@ img {
 
 .social a {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: #eee dashed 1px;
+    border-radius: 20px;
 
+}
+
+.social img {
+    width: 20px;
+    height: 20px;
+}
+
+.social a:hover {
+    background-color: #4CAF50;
 }
