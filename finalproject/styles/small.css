@@ -158,3 +158,19 @@ img {
 .social a:hover {
     background-color: #4CAF50;
 }
+
+/*---------------- social --------------------*/
+section {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #f5eccd;
+    border-radius: 10px;
+    text-align: center;
+    margin: 3px;
+}
+
+section h2 {
+    background-color: #4CAF50;
+    color: #f5eccd;
+    border-radius: 10px;
+}
