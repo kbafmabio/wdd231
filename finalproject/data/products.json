@@ -1,0 +1,109 @@
+{
+    "products": [
+        {
+            "title": "apple",
+            "benefit": "essential nutrients, fiber, and plant antioxidants that support overall health",
+            "category": "fruit",
+            "price": "1000 FCFA/kg",
+            "photoUrl": "finalproject/images/apple.webp"
+        },
+        {
+            "title": "abricot",
+            "benefit": "The apricot is a fruit that is highly beneficial for health and rich in essential nutrients.",
+            "category": "fruit",
+            "price": "1500 FCFA/ kg",
+            "photoUrl": "finalproject/images/abricot.webp"
+        },
+        {
+            "title": "avocado",
+            "benefit": "Avocados provide essential nutrients, healthy fats, and fiber that support heart health, digestion, and weight management",
+            "category": "fruit",
+            "price": "1000 FCFA/kg",
+            "photoUrl": "finalproject/images/avocado.webp"
+        },
+        {
+            "title": "beet",
+            "benefit": "The beetroot is a nutrient-rich root vegetable that offers numerous health benefits",
+            "category": "vegetable",
+            "price": "1500 FCFA/ kg",
+            "photoUrl": "finalproject/images/beet.webp"
+        },
+        {
+            "title": "bell pepper",
+            "benefit": "ell peppers are nutrient-dense, low in calories, and packed with vitamins, fiber, and powerful antioxidants",
+            "category": "vegetable",
+            "price": "1000 FCFA/kg",
+            "photoUrl": "finalproject/images/bellpepper.webp"
+        },
+        {
+            "title": "cabbage",
+            "benefit": "Cabbage is a low-calorie, nutrient-packed cruciferous vegetable that supports digestion, heart health, and immune function",
+            "category": "vegetable",
+            "price": " 1000 FCFA/kg",
+            "photoUrl": "finalproject/images/cabbage.webp"
+        },
+        {
+            "title": "carrot",
+            "benefit": "",
+            "category": "vegetable",
+            "price": "1000 FCFA/kg",
+            "photoUrl": "finalproject/images/carrot.webp"
+        },
+        {
+            "title": "clementine",
+            "benefit": "Clementines offer numerous health and nutritional benefits",
+            "category": "fruit",
+            "price": "1000 FCFA/kg",
+            "photoUrl": "finalproject/images/clementine.webp"
+        },
+        {
+            "title": "cucumbers",
+            "benefit": "Cucumbers offer rich health and nutritional benefits due to their high water content and profile of essential vitamins and minerals",
+            "category": "vegetable",
+            "price": "1500 FCFA/ kg",
+            "photoUrl": "finalproject/images/cucumbers.webp"
+        },
+        {
+            "title": "eggplant",
+            "benefit": "Eggplants (also known as aubergines or brinjals) offer many key health benefits backed by their rich nutrient and antioxidant profile",
+            "category": "vegetable",
+            "price": "1000 FCFA/kg",
+            "photoUrl": "finalproject/images/eggplant.webp"
+        },
+        {
+            "title": "garlic",
+            "benefit": "Garlic provides potent antioxidant, immune-boosting, and heart-health benefits driven primarily by its sulfur compound, allicin",
+            "category": "vegetable",
+            "price": "500 FCFA/kg",
+            "photoUrl": "finalproject/images/garlic.webp"
+        },
+        {
+            "title": "green salade",
+            "benefit": "Eating green salads provides essential vitamins, fiber, and hydration while supporting weight management and long-term health",
+            "category": "vegetable",
+            "price": "1500 FCFA/ kg",
+            "photoUrl": "finalproject/images/greensalad.webp"
+        },
+        {
+            "title": "guavas",
+            "benefit": "Guava fruit offers strong nutritional and health benefits, packed with high amounts of vitamin C, dietary fiber, and antioxidant",
+            "category": "fruit",
+            "price": " 1000 FCFA/kg",
+            "photoUrl": "finalproject/images/guavas.webp"
+        },
+        {
+            "title": "lemon",
+            "benefit": "provide rich nutrients and several evidence-based health benefits",
+            "category": "fruit",
+            "price": "500 FCFA/kg",
+            "photoUrl": "finalproject/images/lemon.webp"
+        },
+        {
+            "title": "mushrooms",
+            "benefit": "Mushrooms are low-calorie, nutrient-dense fungi that offer powerful health benefits",
+            "category": "vegetable",
+            "price": " 500 FCFA/Kg",
+            "photoUrl": "finalproject/images/mushrooms.webp"
+        }
+    ]
+}
