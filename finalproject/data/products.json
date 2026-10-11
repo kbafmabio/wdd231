@@ -4,106 +4,106 @@
             "title": "apple",
             "benefit": "essential nutrients, fiber, and plant antioxidants that support overall health",
             "category": "fruit",
-            "price": "1000 FCFA/kg",
-            "photoUrl": "finalproject/images/apple.webp"
+            "price": 1000,
+            "photoUrl": "apple.webp"
         },
         {
             "title": "abricot",
             "benefit": "The apricot is a fruit that is highly beneficial for health and rich in essential nutrients.",
             "category": "fruit",
-            "price": "1500 FCFA/ kg",
-            "photoUrl": "finalproject/images/abricot.webp"
+            "price": 1500,
+            "photoUrl": "abricot.webp"
         },
         {
             "title": "avocado",
             "benefit": "Avocados provide essential nutrients, healthy fats, and fiber that support heart health, digestion, and weight management",
             "category": "fruit",
-            "price": "1000 FCFA/kg",
-            "photoUrl": "finalproject/images/avocado.webp"
+            "price": 1000,
+            "photoUrl": "avocado.webp"
         },
         {
-            "title": "beet",
+            "title": "Beet",
             "benefit": "The beetroot is a nutrient-rich root vegetable that offers numerous health benefits",
             "category": "vegetable",
-            "price": "1500 FCFA/ kg",
-            "photoUrl": "finalproject/images/beet.webp"
+            "price": 1500,
+            "photoUrl": "beet.webp"
         },
         {
-            "title": "bell pepper",
+            "title": "Bell Pepper",
             "benefit": "ell peppers are nutrient-dense, low in calories, and packed with vitamins, fiber, and powerful antioxidants",
             "category": "vegetable",
-            "price": "1000 FCFA/kg",
-            "photoUrl": "finalproject/images/bellpepper.webp"
+            "price": 1000,
+            "photoUrl": "bellpepper.webp"
         },
         {
-            "title": "cabbage",
+            "title": "Cabbage",
             "benefit": "Cabbage is a low-calorie, nutrient-packed cruciferous vegetable that supports digestion, heart health, and immune function",
             "category": "vegetable",
-            "price": " 1000 FCFA/kg",
-            "photoUrl": "finalproject/images/cabbage.webp"
+            "price": 1000,
+            "photoUrl": "cabbage.webp"
         },
         {
-            "title": "carrot",
+            "title": "Carrot",
             "benefit": "",
             "category": "vegetable",
-            "price": "1000 FCFA/kg",
-            "photoUrl": "finalproject/images/carrot.webp"
+            "price": 1000,
+            "photoUrl": "carrot.webp"
         },
         {
-            "title": "clementine",
+            "title": "Clementine",
             "benefit": "Clementines offer numerous health and nutritional benefits",
             "category": "fruit",
-            "price": "1000 FCFA/kg",
-            "photoUrl": "finalproject/images/clementine.webp"
+            "price": 1000,
+            "photoUrl": "clementine.webp"
         },
         {
-            "title": "cucumbers",
+            "title": "Cucumbers",
             "benefit": "Cucumbers offer rich health and nutritional benefits due to their high water content and profile of essential vitamins and minerals",
             "category": "vegetable",
-            "price": "1500 FCFA/ kg",
-            "photoUrl": "finalproject/images/cucumbers.webp"
+            "price": 1500,
+            "photoUrl": "cucumbers.webp"
         },
         {
-            "title": "eggplant",
+            "title": "Eggplant",
             "benefit": "Eggplants (also known as aubergines or brinjals) offer many key health benefits backed by their rich nutrient and antioxidant profile",
             "category": "vegetable",
-            "price": "1000 FCFA/kg",
-            "photoUrl": "finalproject/images/eggplant.webp"
+            "price": 1000,
+            "photoUrl": "eggplant.webp"
         },
         {
-            "title": "garlic",
+            "title": "Garlic",
             "benefit": "Garlic provides potent antioxidant, immune-boosting, and heart-health benefits driven primarily by its sulfur compound, allicin",
             "category": "vegetable",
-            "price": "500 FCFA/kg",
-            "photoUrl": "finalproject/images/garlic.webp"
+            "price": 500,
+            "photoUrl": "garlic.webp"
         },
         {
-            "title": "green salade",
+            "title": "Green Salade",
             "benefit": "Eating green salads provides essential vitamins, fiber, and hydration while supporting weight management and long-term health",
             "category": "vegetable",
-            "price": "1500 FCFA/ kg",
-            "photoUrl": "finalproject/images/greensalad.webp"
+            "price": 1500,
+            "photoUrl": "greensalad.webp"
         },
         {
-            "title": "guavas",
+            "title": "Guavas",
             "benefit": "Guava fruit offers strong nutritional and health benefits, packed with high amounts of vitamin C, dietary fiber, and antioxidant",
             "category": "fruit",
-            "price": " 1000 FCFA/kg",
-            "photoUrl": "finalproject/images/guavas.webp"
+            "price": 1000,
+            "photoUrl": "guavas.webp"
         },
         {
-            "title": "lemon",
+            "title": "Lemon",
             "benefit": "provide rich nutrients and several evidence-based health benefits",
             "category": "fruit",
-            "price": "500 FCFA/kg",
-            "photoUrl": "finalproject/images/lemon.webp"
+            "price": 500,
+            "photoUrl": "lemon.webp"
         },
         {
-            "title": "mushrooms",
+            "title": "Mushrooms",
             "benefit": "Mushrooms are low-calorie, nutrient-dense fungi that offer powerful health benefits",
             "category": "vegetable",
-            "price": " 500 FCFA/Kg",
-            "photoUrl": "finalproject/images/mushrooms.webp"
+            "price": 500,
+            "photoUrl": "mushrooms.webp"
         }
     ]
 }

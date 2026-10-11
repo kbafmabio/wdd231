@@ -35,6 +35,7 @@
 
     <!-- JavaScript -->
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/products.js" defer></script>
 </head>
 
 <body>
@@ -54,6 +55,16 @@
 
     <main>
         <h1>Our Products</h1>
+
+        <div class="view-buttons">
+            <button id="gridView" aria-label="Display prodducts as a grid" aria-pressed="true">Grid</button>
+
+            <button id="listView" aria-label="Display products as a list" aria-pressed="false">List</button>
+        </div>
+
+        <section id="products" class="products-grid" aria-label="Products Items">
+            <!-- Member cards will be added here using JavaScript -->
+        </section>
 
     </main>
 
