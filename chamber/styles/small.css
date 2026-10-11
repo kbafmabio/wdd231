@@ -288,7 +288,7 @@ footer {
 /* Grid view */
 #cards.grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1.5rem;
 }
 
@@ -319,7 +319,7 @@ footer {
 
 #cards.list section {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     gap: 1rem;
     text-align: left;
