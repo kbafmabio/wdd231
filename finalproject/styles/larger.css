@@ -1,11 +1,11 @@
 @media only screen and (min-width: 64rem) {
 
-    header,
+    /* header,
     nav,
     main,
     footer {
         max-width: 900px;
-    }
+    }*/
 
 
     .hamburger {
@@ -32,5 +32,11 @@
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .products-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
     }
 }

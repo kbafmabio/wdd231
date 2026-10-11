@@ -87,6 +87,7 @@ body {
     color: #333333;
     line-height: 1.6;
     padding: 20px;
+
 }
 
 h1 {
@@ -159,7 +160,7 @@ img {
     background-color: #4CAF50;
 }
 
-/*---------------- social --------------------*/
+/*---------------- home section--------------------*/
 section {
     background-color: #fff;
     padding: 1rem;
@@ -173,4 +174,10 @@ section h2 {
     background-color: #4CAF50;
     color: #f5eccd;
     border-radius: 10px;
+}
+
+/*---------------- product card-------------------*/
+.products-grid {
+    display: block;
+
 }

@@ -12,7 +12,7 @@ const displayProducts = (products) => {
     productsContainer.innerhtml = "";
 
     products.forEach(product => {
-        const card = document.createElement("article");
+        const card = document.createElement("section");
         const title = document.createElement("h2");
         const category = document.createElement("p");
         const price = document.createElement("p");
