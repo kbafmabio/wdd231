@@ -39,4 +39,8 @@
         grid-template-columns: 1fr 1fr 1fr;
 
     }
+
+    .members-list .member-card {
+        grid-template-columns: 70px 1fr;
+    }
 }

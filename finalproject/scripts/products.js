@@ -1,8 +1,8 @@
 const url = "data/products.json";
 const productsContainer = document.querySelector("#products");
 
-const gridButton = document.querySelector("#gridView");
-const listButton = document.querySelector("#listView");
+const gridButton = document.querySelector("#grid");
+const listButton = document.querySelector("#list");
 
 // async function
 
@@ -44,22 +44,21 @@ const displayProducts = (products) => {
 
     });
 
-    function setView(view) {
-        const isGrid = view === "grid";
+    gridButton.addEventListener("click", () => {
+        productsContainer.classList.add("grid");
+        productsContainer.classList.remove("list");
+        gridButton.classList.add("active");
+        listButton.classList.remove("active");
+    });
 
-        productsContainer.classList.toggle("product-grid", isGrid);
-        productsContainer.classList.toggle("product-list", !isGrid);
-
-        gridButton.setAttribute("aria-pressed", String(isGrid));
-        listButton.setAttribute("aria-pressed", String(!isGrid));
-    }
-
-    gridButton.addEventListener("click", () => setView("grid"));
-    listButton.addEventListener("click", () => setView("list"));
-
+    listButton.addEventListener('click', () => {
+        productsContainer.classList.add("list");
+        productsContainer.classList.remove("grid");
+        listButton.classList.add("active");
+        gridButton.classList.remove("active");
+    });
 
 }
 getProductData();
-setView("grid");
 
 
