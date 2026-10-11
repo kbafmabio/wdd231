@@ -184,9 +184,7 @@ section h2 {
     object-fit: cover;
 }
 
-/* Grid view */
-
-/* Individual cards */
+/* Individual cards 
 #cards section {
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -195,7 +193,7 @@ section h2 {
     text-align: center;
 }
 
-/* Company logos */
+
 #cards img {
     width: 100%;
     max-width: 200px;
@@ -204,7 +202,6 @@ section h2 {
     margin: 0.5rem auto;
 }
 
-/* List view */
 #cards.list {
     display: flex;
     flex-direction: column;
@@ -219,8 +216,9 @@ section h2 {
     text-align: left;
 }
 
-/* Active view button */
+
 .active {
     background-color: #222;
     color: #fff;
 }
+*/
