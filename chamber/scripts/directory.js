@@ -2,6 +2,9 @@ const url = 'data/members.json';
 
 const cards = document.querySelector('#cards');
 
+const gridButton = document.querySelector('#grid');
+const listButton = document.querySelector('#list');
+
 async function getMemberData() {
 
     const response = await fetch(url);
@@ -39,25 +42,26 @@ const displayMembers = (members) => {
 
         cards.appendChild(card);
     });
+
+    gridButton.addEventListener('click', () => {
+        cards.classList.add('grid');
+        cards.classList.remove('list');
+        gridButton.classList.add('active');
+        listButton.classList.remove('active');
+    });
+
+    listButton.addEventListener('click', () => {
+        cards.classList.add('list');
+        cards.classList.remove('grid');
+        listButton.classList.add('active');
+        gridButton.classList.remove('active');
+    });
 }
 
 getMemberData();
-//button 
 
-const gridButton = document.querySelector('#grid');
-const listButton = document.querySelector('#list');
 
-gridButton.addEventListener('click', () => {
-    cards.classList.add("grid");
-    cards.classList.remove("list");
-    gridButton.classList.add('active');
-    listButton.classList.remove('active');
-});
 
-listButton.addEventListener('click', () => {
-    cards.classList.add('list');
-    cards.classList.remove('grid');
-    listButton.classList.add('active');
-    gridButton.classList.remove('active');
-});
+
+
 

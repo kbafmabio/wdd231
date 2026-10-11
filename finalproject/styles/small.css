@@ -168,6 +168,7 @@ section {
     border-radius: 10px;
     text-align: center;
     margin: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 section h2 {
@@ -177,7 +178,9 @@ section h2 {
 }
 
 /*---------------- product card-------------------*/
-.products-grid {
-    display: block;
+.products-grid img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
 
 }
