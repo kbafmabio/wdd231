@@ -102,6 +102,7 @@ h2 {
     color: #FF5722;
     margin-top: 20px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 h3 {
@@ -114,6 +115,7 @@ h3 {
 p {
     font-size: 1rem;
     margin-bottom: 10px;
+    text-align: justify;
 }
 
 /*---------------- footer --------------------*/
@@ -222,3 +224,85 @@ section h2 {
     color: #fff;
 }
 */
+/*form layout*/
+form {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f5eccd;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: grid;
+    gap: 12px;
+}
+
+
+/*label*/
+label {
+    font-weight: bold;
+    color: #333333;
+    margin-top: 8px;
+
+}
+
+/*text fields, select and text area*/
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #FF5722;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: white;
+
+}
+
+/*textarea*/
+texarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/*text focus*/
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #333333;
+    box-shadow: 0 0 4px rgba(208, 228, 248, 0.3);
+
+}
+
+/*button*/
+button[type="submit"] {
+    margin-top: 15px;
+    padding: 12px 20px;
+
+    background-color: #FF5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*button hover*/
+button[type="submit"]:hover {
+    background-color: #4CAF50;
+}
+
+input:required:invalid,
+select:required:invalid {
+    border-color: #FF5722;
+}
+
+input:required:valid,
+select:required:valid {
+    border-color: #4CAF50;
+}
