@@ -54,28 +54,52 @@
 
     <main>
         <h1>Contact Us</h1>
+        <div class="container">
+            <fieldset>
+                <legend> contacting area</legend>
+                <form action="thankyou.html" method="get">
+                    <label for="first"> First Name:</label>
+                    <input type="text" name="first" id="first" title="appliquant first name" autocomplete="given-name"
+                        required>
+                    <label for="last"> Last Name: </label>
+                    <input type="text" name="last" id="last" title="appliquqnt last name" autocomplete="additional-name"
+                        required>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" title="email" placeholder="example@email.com" required>
+                    <label for="object"> Object: </label>
+                    <input type="text" name="object" id="object" title="appliquant object" autocomplete="object"
+                        required>
+                    <label for="description"> Description:</label>
+                    <textarea name="description" id="description" title="object description"></textarea>
+                    <input type="hidden" id="timestamp" name="timestamp">
 
-        <fieldset>
-            <legend> Contact us</legend>
-            <form action="thankyou.html" method="get">
-                <label for="first"> First Name:</label>
-                <input type="text" name="first" id="first" title="appliquant first name" autocomplete="given-name"
-                    required>
-                <label for="last"> Last Name: </label>
-                <input type="text" name="last" id="last" title="appliquqnt last name" autocomplete="additional-name"
-                    required>
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" title="email" placeholder="example@email.com" required>
-                <label for="object"> Object: </label>
-                <input type="text" name="object" id="object" title="appliquant object" autocomplete="object" required>
-                <label for="description"> Description:</label>
-                <textarea name="description" id="description" title="object description"></textarea>
-                <input type="hidden" id="timestamp" name="timestamp">
+                    <button type="submit"> send a message</button>
 
-                <button type="submit"> send a message</button>
+                </form>
+            </fieldset>
+            <section>
+                <h2>More information about product</h2>
+                <div>
+                    <h3>Cereals and Grains</h3>
+                    <button id="openCereal" class="button"> learn More</button>
+                </div>
+                <div>
+                    <h3> Tubes and Roots</h3>
+                    <button id="openTube" class="button"> Learn More</button>
+                </div>
+                <div>
+                    <h3>Legumes</h3>
+                    <button id="openLegume" class="button"> learn More</button>
+                </div>
+                <div>
+                    <h3>Vegetable and Leaves</h3>
+                    <button id="openVeggetable" class="button"> Learn more</button>
+                </div>
+                
+            </section>
 
-            </form>
-        </fieldset>
+
+        </div>
 
     </main>
 
