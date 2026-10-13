@@ -8,7 +8,7 @@
     <meta name="author" content="Kouassi Bienvenue Adjoua Felicite">
 
     <meta name="description"
-        content="Welcome to Extra Market Plus, your trusted market for fresh fruits, quality cereals, and nutritious legumes. Discover quality food products at affordable prices.">
+        content="Discover fresh fruits, quality cereals, and nutritious legumes at Extra Market Plus. Quality food products at affordable prices.">
 
     <title>Extra Market Plus | Fresh Fruits, Cereals and Legumes</title>
 
@@ -35,6 +35,7 @@
 
     <!-- JavaScript -->
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 </head>
 
 <body>
@@ -49,6 +50,7 @@
             <li class="current"><a href="index.html">Home</a></li>
             <li><a href="products.html">Products</a></li>
             <li><a href="contactus.html">Contact Us</a></li>
+
         </ul>
     </nav>
 
@@ -74,17 +76,15 @@
                     of Managing Director to his wife, Mrs. Mabio Bienvenue Félicité.
 
                     Under Mrs. Mabio's leadership, Extra Market strengthened its market position through:</p>
-                <ul>
-                    <li>Operational excellence: Faster delivery times and strict quality control.</li>
-                    <li>An enhanced customer experience: Modernized digital storefront and personalized customer care.
-                    </li>
-                    <li>A commitment to food safety: Promoting healthy, accessible, and carefully selected food items.
-                    </li>
-                </ul>
+                Operational excellence: Faster delivery times and strict quality control.
+                An enhanced customer experience: Modernized digital storefront and personalized customer care.
+                A commitment to food safety: Promoting healthy, accessible, and carefully selected food items.
+                </p>
+
             </section>
 
             <section>
-                <h2>Our Fresh Fruits</h2>
+                <h2> The Fresh Fruits</h2>
                 <img src="images/fruits.jpg" alt="Fresh fruits available at Extra Market Plus" loading="lazy">
                 <img src="images/3fruits.webp" alt="3 fruits animation" loading="lazy" width="300" height="200">
             </section>
@@ -94,7 +94,15 @@
             <section id="category">
 
             </section>
-            <section id="weather"></section>
+            <section id="weather">
+                <div>
+                    <h2>Weather Information</h2>
+                    <span id="mytown"></span>
+                    <p id="description"></p>
+                    <p id="temperature"></p>
+                    <img id="graphic" src="" alt="weather-graphic" loading="lazy">
+                </div>
+            </section>
         </div>
     </main>
 
