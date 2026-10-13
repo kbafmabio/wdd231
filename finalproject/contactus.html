@@ -35,6 +35,7 @@
 
     <!-- JavaScript -->
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/contactus.js" defer></script>
 </head>
 
 <body>
@@ -66,14 +67,16 @@
                         required>
                     <label for="email">Email:</label>
                     <input type="email" name="email" id="email" title="email" placeholder="example@email.com" required>
+                    <label for="phone"> Mobile Phone Number </label>
+                    <input type="tel" id="phone" name="phone" title="Mobile phone number" autocomplete="tel" required>
                     <label for="object"> Object: </label>
                     <input type="text" name="object" id="object" title="appliquant object" autocomplete="object"
                         required>
                     <label for="description"> Description:</label>
                     <textarea name="description" id="description" title="object description"></textarea>
-                    <input type="hidden" id="timestamp" name="timestamp">
+                    <input type="hidden" id="timeStamp" name="timStamp">
 
-                    <button type="submit"> send a message</button>
+                    <button type="submit"> Send a message</button>
 
                 </form>
             </fieldset>
@@ -89,43 +92,46 @@
                 </div>
                 <div class="category-card">
                     <h3>The Porous fruits</h3>
-                    <button id="openPorouus" class="button"> Learn More</button>
+                    <button id="openPorous" class="button"> Learn More</button>
                 </div>
                 <div class="category-card">
                     <h3> Citrus fruit</h3>
                     <button id="openCitrus" class="button"> Learn more</button>
                 </div>
 
-                <dialog id="dialogBox">
+                <dialog id="dialogBoxNut">
                     <h2>The Nuts</h2>
-                    <img src="images/coconut.webp" alt="Coconut fruit" loading="lazy">
+                    <img src="images/coconut.webp" alt="Coconut" loading="lazy" width="300" height="200">
                     <h3>Benefits</h3>
                     <p>A Great Source of Many Nutrients</p>
                     <p>Loaded With Antioxidants</p>
+                    <button id="closeNut" class="button"> Close</button>
 
                 </dialog>
-                <dialog id="dialogBox">
-                    <h2>The Nuts</h2>
-                    <img src="images/coconut.webp" alt="Coconut fruit" loading="lazy">
+                <dialog id="dialogBoxStone">
+                    <h2>The Stones fruit</h2>
+                    <img src="images/abricot.webp" alt="apricot" loading="lazy" width="300" height="200">
                     <h3>Benefits</h3>
                     <p>A Great Source of Many Nutrients</p>
                     <p>Loaded With Antioxidants</p>
+                    <button id="closeStone" class="button"> Close</button>
 
                 </dialog>
-                <dialog id="dialogBox">
-                    <h2>The Nuts</h2>
-                    <img src="images/coconut.webp" alt="Coconut fruit" loading="lazy">
+                <dialog id="dialogBoxPorous">
+                    <h2>The Porous fruits</h2>
+                    <img src="images/pear.webp" alt=" Poire " width="300" height="200" loading="lazy">
                     <h3>Benefits</h3>
                     <p>A Great Source of Many Nutrients</p>
                     <p>Loaded With Antioxidants</p>
-
+                    <button id="closePorous" class="button"> Close</button>
                 </dialog>
-                <dialog id="dialogBox">
-                    <h2>The Nuts</h2>
-                    <img src="images/coconut.webp" alt="Coconut fruit" loading="lazy">
+                <dialog id="dialogBoxCitrus">
+                    <h2>The Citrus Fruits</h2>
+                    <img src="images/clementine.webp" alt="Clementine" width="300" height="200" loading="lazy">
                     <h3>Benefits</h3>
                     <p>A Great Source of Many Nutrients</p>
                     <p>Loaded With Antioxidants</p>
+                    <button id="closeCitrus" class="button"> Close</button>
 
                 </dialog>
             </section>
