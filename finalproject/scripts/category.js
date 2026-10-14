@@ -1,12 +1,15 @@
 import { categories } from "../data/category.mjs";
 console.log(categories);
 
-const categoriesContainer = document.querySelector("#categoryContainer");
+const categoriesContainer = document.querySelector("#categoriesContainer");
+
 
 function displayItems(categories) {
+    categoriesContainer.innerHTML = "";
 
     categories.forEach(category => {
         const card = document.createElement("div");
+
         const photo = document.createElement("img");
         photo.src = `images/${category.photoUrl}`;
         photo.alt = category.title;
@@ -20,11 +23,11 @@ function displayItems(categories) {
 
         const benefit = document.createElement("benefit");
         benefit.innerText = category.benefit;
-        card.appendChild(address);
+        card.appendChild(benefit);
 
         const usingMode = document.createElement("p");
         usingMode.innerText = category.usingMode;
-        card.appendChild(description);
+        card.appendChild(usingMode);
 
         categoriesContainer.appendChild(card);
     });
@@ -35,7 +38,7 @@ displayItems(categories);
 // local storage message code
 
 
-const visitMessage = document.querySelector("#visitMessage");
+const visitMessage = document.querySelector("#visiteMessage");
 
 const now = Date.now();
 const lastVisit = localStorage.getItem("lastVisit");
