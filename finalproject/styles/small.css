@@ -404,7 +404,29 @@ button {
 
 }
 
-#visiteMessage {
+/* weather layout*/
+.weather {
+    background-color: #f5eccd;
+}
+
+.weather #temperature {
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.weather #description {
+    text-align: center;
+    color: #4CAF50;
+}
+
+.weather span {
+    font-weight: bolder;
+
+}
+
+/* grid template area layout*/
+.visiteMessage {
     font-weight: bolder;
     font-style: oblique;
     font-size: 16px;
