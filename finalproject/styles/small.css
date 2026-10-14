@@ -368,3 +368,45 @@ button {
         transform: translateY(0);
     }
 }
+
+/* grid template area layout*/
+#categoriesContainer div {
+    margin: 1rem 8px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    display: grid;
+    grid-template-areas:
+        "title"
+        "photo"
+        "benefit"
+        "usingMode";
+
+}
+
+#categoriesContainer div h2 {
+    margin: 1rem 7px;
+    grid-area: title;
+
+}
+
+#categoriesContainer div p {
+    margin: 1rem 10px;
+    grid-area: benefit;
+
+}
+
+#categoriesContainer div img {
+
+    grid-area: photo;
+
+}
+
+#visiteMessage {
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 16px;
+    color: #FF5722;
+}

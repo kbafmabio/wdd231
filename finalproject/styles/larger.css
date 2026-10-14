@@ -48,4 +48,9 @@
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
+
+    #categoriesContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
