@@ -33,9 +33,11 @@
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
 
+
     <!-- JavaScript -->
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/weather.js" defer></script>
+    <script src="scripts/category.js" type="module"></script>
 </head>
 
 <body>
@@ -91,7 +93,7 @@
         </div>
 
         <div class="grid-down">
-            <section id="category">
+            <section id="categoryContainer">
 
             </section>
             <section id="weather">
@@ -102,6 +104,7 @@
                     <p id="temperature"></p>
                     <img id="graphic" src="" alt="weather-graphic" loading="lazy">
                 </div>
+                <div id="visiteMessage"></div>
             </section>
         </div>
     </main>

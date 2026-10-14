@@ -9,7 +9,7 @@ export const categories = [
             "Add segments to fruit salads.",
             "Use lemon juice in drinks and recipes."
         ],
-        "photoUrl": "https://images.unsplash.com/photo-1547514701-42782101795e?w=800"
+        "photoUrl": "clementine.webp"
     },
     {
         "id": "tropical",
@@ -21,7 +21,7 @@ export const categories = [
             "Prepare fruit salads.",
             "Use in desserts and sauces."
         ],
-        "photoUrl": "grape.webp"
+        "photoUrl": "pineapple.webp"
     },
     {
         "id": "berries",
@@ -33,7 +33,7 @@ export const categories = [
             "Blend into smoothies.",
             "Use in jams and desserts."
         ],
-        "photoUrl": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=800"
+        "photoUrl": "grapes.webp"
     }
 ]
 
