@@ -99,7 +99,7 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
-    color: #FF5722;
+    color: #333333;
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
@@ -110,6 +110,7 @@ h3 {
     margin-top: 15px;
     margin-bottom: 8px;
     text-align: center;
+    color: #333333;
 }
 
 p {
