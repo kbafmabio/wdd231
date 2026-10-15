@@ -186,8 +186,15 @@ section h2 {
     object-fit: cover;
 }
 
-/* Individual cards 
-#cards section {
+/* Grid view */
+#products.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+
+/* Individual cards */
+#products section {
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 1rem;
@@ -195,8 +202,8 @@ section h2 {
     text-align: center;
 }
 
-
-#cards img {
+/* product images */
+#products img {
     width: 100%;
     max-width: 200px;
     height: 120px;
@@ -204,26 +211,27 @@ section h2 {
     margin: 0.5rem auto;
 }
 
-#cards.list {
+/* List view */
+#products.list {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-#cards.list section {
+#products.list section {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     gap: 1rem;
     text-align: left;
 }
 
-
+/* Active view button */
 .active {
-    background-color: #222;
-    color: #fff;
+    background-color: #f5b780;
+    color: #333333;
 }
-*/
+
 /*form layout*/
 section img:hover {
     transform: scale(1.1);
