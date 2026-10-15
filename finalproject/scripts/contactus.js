@@ -43,3 +43,8 @@ closeCitrus.addEventListener("click", () => {
     dialogBoxCitrus.close();
 });
 
+const timeStampInput = document.querySelector("#timeStamp");
+
+if (timeStampInput) {
+    timeStampInput.value = new Date().toISOString();
+}
